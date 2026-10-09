@@ -46,7 +46,7 @@ npm run android:sync
 npx cap open android
 ```
 
-In Android Studio, build and run on a device. The generated project is in `android/`. Confirm the final APK has no `android.permission.INTERNET` permission before sharing it. Keep any release keystore private and out of version control.
+The sync command applies the Nagrik Guide launcher icon to Android resources. In Android Studio, build and run on a device. The generated project is in `android/`. Confirm the final APK has no `android.permission.INTERNET` permission before sharing it. Keep any release keystore private and out of version control.
 
 ## Build the APK without Android Studio
 
@@ -57,7 +57,7 @@ The GitHub Actions workflow builds the APK on GitHub's runner, which provides th
 3. Choose **Run workflow** (or push to `main` to trigger it automatically) and wait for the run to finish.
 4. Open the completed run and download the `nagrik-guide-apk` artifact. It includes the debug APK for testing.
 
-The workflow checks that the APK does not request Android's `INTERNET` permission. For a signed release APK, configure the `KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, and `KEY_ALIAS` repository secrets as described in `.github/workflows/build-apk.yml`. Never commit the signing keystore or its password.
+The workflow applies the Nagrik Guide launcher icon and checks that the APK does not request Android's `INTERNET` permission. For a signed release APK, configure the `KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, and `KEY_ALIAS` repository secrets as described in `.github/workflows/build-apk.yml`. Never commit the signing keystore or its password.
 
 ## Editing content
 

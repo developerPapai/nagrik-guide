@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react'
-import { Link, Navigate, Route, Routes, useNavigate, useParams } from 'react-router-dom'
+import { Link, Navigate, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { App as CapacitorApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
 import Fuse from 'fuse.js'
 import {
   getAboutContent,
+  getArticleFinder,
   getCases,
   getChecklist,
   getContacts,
   getDisclaimer,
+  getFundamentalRights,
   getGlossary,
   getLawRefs,
   getScripts,
@@ -18,10 +20,67 @@ import { clearAllAppData, readVault, writeVault } from './lib/storage'
 import { clearFailedPinAttempts, registerFailedPinAttempt, remainingPinDelay } from './lib/lock'
 import { useVault } from './lib/useVault'
 import { useI18n } from './i18n/useI18n'
-import type { IncidentNote, Module, UserContact } from './types'
+import type { FRArticle, IncidentNote, Module, UserContact } from './types'
 import './App.css'
 
 const situations = ['stopped', 'detained', 'arrested', 'custody', 'court'] as const
+const hindiArticleAliases: Record<string, string> = {
+  '०': '0', '१': '1', '२': '2', '३': '3', '४': '4',
+  '५': '5', '६': '6', '७': '7', '८': '8', '९': '9',
+  'क': 'a', 'ख': 'b', 'ग': 'c', 'घ': 'd', 'ङ': 'e',
+}
+
+function normalizeArticleSearch(value: string): string {
+  return value
+    .toLocaleLowerCase()
+    .replace(/[०-९कखगघङ]/g, (character) => hindiArticleAliases[character] ?? character)
+    .replace(/\b(?:article|art|anuchhed)\b|अनुच्छेद/g, ' ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim()
+}
+
+function articleMatchesQuery(article: FRArticle, normalizedQuery: string): boolean {
+  if (/^[0-9\s]+$/.test(normalizedQuery)) {
+    return normalizeArticleSearch(article.article).split(' ')[0] === normalizedQuery
+  }
+  return normalizeArticleSearch([
+    article.article,
+    article.name.en,
+    article.name.hi,
+    article.plain.en,
+    article.plain.hi,
+    article.limits?.en ?? '',
+    article.limits?.hi ?? '',
+    article.atProtest?.en ?? '',
+    article.atProtest?.hi ?? '',
+    ...article.tags,
+  ].join(' ')).includes(normalizedQuery)
+}
+
+function getKeyNumberGroups() {
+  const grouped = new Map<string, FRArticle[]>()
+  for (const article of getFundamentalRights()) {
+    if (article.priority !== 1 || !article.keyGroup || !article.memory) continue
+    grouped.set(article.keyGroup, [...(grouped.get(article.keyGroup) ?? []), article])
+  }
+  return [...grouped.entries()].map(([keyGroup, groupedArticles]) => ({
+    keyGroup,
+    article: groupedArticles[0],
+    articles: groupedArticles,
+    memory: groupedArticles[0].memory!,
+  }))
+}
+
+function shuffle<T>(items: T[]): T[] {
+  const result = [...items]
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(Math.random() * (index + 1))
+    const item = result[index]
+    result[index] = result[target]
+    result[target] = item
+  }
+  return result
+}
 
 function QuickExit() {
   const { t } = useI18n()
@@ -94,6 +153,11 @@ function AppChrome() {
         <Route path="/" element={<Home />} />
         <Route path="/s/:situationId" element={<Situation />} />
         <Route path="/m/:id" element={<ModuleScreen />} />
+        <Route path="/rights" element={<RightsScreen />} />
+        <Route path="/rights/finder" element={<ArticleFinderScreen />} />
+        <Route path="/rights/practice" element={<RightsPracticeScreen />} />
+        <Route path="/rights/:id" element={<RightsArticleScreen />} />
+        <Route path="/wallet-card" element={<WalletCardScreen />} />
         <Route path="/scripts" element={<ScriptsScreen />} />
         <Route path="/scripts/:id" element={<ScriptDetail />} />
         <Route path="/contacts" element={<ContactsScreen />} />
@@ -125,6 +189,7 @@ function Home() {
     { id: 'custody', icon: '⌂' },
     { id: 'court', icon: '§' },
     { id: 'protest', icon: '✳' },
+    { id: 'articles', icon: '§' },
   ]
   const actionTitles: Record<string, string> = {
     stopped: 'home.stopped',
@@ -132,6 +197,7 @@ function Home() {
     custody: 'home.custody',
     court: 'home.court',
     protest: 'home.protest',
+    articles: 'home.articles',
   }
 
   return (
@@ -143,7 +209,7 @@ function Home() {
       </section>
       <section className="urgent-links" aria-label={t('home.situations')}>
         {actions.map(({ id, icon }) => (
-          <Link className="situation-button" key={id} to={id === 'protest' ? '/m/M07' : `/s/${id}`}>
+          <Link className="situation-button" key={id} to={id === 'protest' ? '/m/M07' : id === 'articles' ? '/rights' : `/s/${id}`}>
             <span className="situation-icon" aria-hidden="true">{icon}</span>
             <span>{t(actionTitles[id])}</span>
             <span className="arrow" aria-hidden="true">›</span>
@@ -155,6 +221,7 @@ function Home() {
         <Link className="shortcut-button" to="/contacts">{t('home.help')}</Link>
         <Link className="shortcut-button" to="/notes">{t('home.notes')}</Link>
         <Link className="shortcut-button" to="/library">{t('home.search')}</Link>
+        <Link className="shortcut-button" to="/rights">{t('nav.rights')}</Link>
       </section>
       <nav className="footer-links" aria-label={t('home.more')}>
         <Link to="/shutdown">{t('home.shutdown')}</Link>
@@ -162,6 +229,8 @@ function Home() {
         <Link to="/cases">{t('nav.cases')}</Link>
         <Link to="/glossary">{t('nav.glossary')}</Link>
         <Link to="/about">{t('nav.about')}</Link>
+        <Link to="/rights/finder">{t('rights.finder')}</Link>
+        <Link to="/wallet-card">{t('rights.wallet')}</Link>
         <Link to="/settings">{t('nav.settings')}</Link>
       </nav>
     </main>
@@ -265,11 +334,13 @@ function ModuleDetail({ module }: { module: Module }) {
 function Step({ step }: { step: Module['steps'][number] }) {
   const { localized, t } = useI18n()
   const text = localized(step.text)
+  const scriptButton = step.scriptId
   return (
     <article className={`step-card step-${step.type}`}>
       <h2>{t(`step.${step.type}`)}</h2>
       <p>{text.text}</p>
       {text.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+      {scriptButton && <Link className="secondary-action script-step-link" to={`/scripts/${scriptButton}?show=1`}>{t('rights.say')} · {scriptButton}</Link>}
     </article>
   )
 }
@@ -279,13 +350,15 @@ function LegalBasis({ module }: { module: Module }) {
   const refs = getLawRefs()
   const usedIds = new Set(module.steps.flatMap((step) => step.refs ?? []))
   const usedRefs = refs.filter((ref) => usedIds.has(ref.id))
-  if (usedRefs.length === 0) return null
+  const usedCases = getCases().filter((card) => usedIds.has(card.id) && !usedRefs.some((ref) => ref.id === card.id))
+  if (usedRefs.length === 0 && usedCases.length === 0) return null
 
   return (
     <details className="legal-basis">
       <summary>{t('law.basis')}</summary>
       {usedRefs.map((ref) => {
         const label = localized(ref.label)
+        const relatedArticles = getFundamentalRights().filter((article) => article.refs?.includes(ref.id))
         return (
           <div className="law-ref" key={ref.id}>
             <strong>{label.text}</strong>
@@ -294,7 +367,25 @@ function LegalBasis({ module }: { module: Module }) {
               {ref.current && <><dt>{t('law.current')}</dt><dd>{ref.current}</dd></>}
               {ref.old && <><dt>{t('law.old')}</dt><dd>{ref.old}</dd></>}
             </dl>
+            {relatedArticles.length > 0 && (
+              <div className="article-chip-list">
+                {relatedArticles.map((article) => (
+                  <Link className="article-chip" key={article.id} to={`/rights/${article.id}`}>
+                    {t('rights.article')} {article.article}
+                  </Link>
+                ))}
+              </div>
+            )}
             {ref.verify && <small>{t('law.verify')}</small>}
+          </div>
+        )
+      })}
+      {usedCases.map((card) => {
+        const name = localized(card.name)
+        return (
+          <div className="law-ref" key={card.id}>
+            <Link to="/cases">{name.text} · {card.citation}</Link>
+            {card.verifyCitation && <small>{t('case.verify')}</small>}
           </div>
         )
       })}
@@ -382,9 +473,10 @@ function ScriptsScreen() {
 
 function ScriptDetail() {
   const { id = '' } = useParams()
+  const [searchParams] = useSearchParams()
   const { lang, setLang, t, localized } = useI18n()
   const script = getScripts().find((item) => item.id.toLowerCase() === id.toLowerCase())
-  const [showMode, setShowMode] = useState(false)
+  const [showMode, setShowMode] = useState(() => searchParams.get('show') === '1')
   if (!script) return <Navigate to="/scripts" replace />
   const when = localized(script.when)
 
@@ -409,7 +501,23 @@ function ScriptDetail() {
         <p>{script.hiRoman}</p>
       </article>
       {script.warning && <aside className="gray-area"><h2>{t('script.warning')}</h2><p>{localized(script.warning).text}</p></aside>}
-      <SafetyLine />
+      {script.tips?.map((tip, index) => (
+        <section className="step-card script-tips" key={index}>
+          <h2>{t('script.tips')}</h2>
+          <p><strong>{t('script.do')}:</strong> {localized(tip.do).text}</p>
+          <p><strong>{t('script.dont')}:</strong> {localized(tip.dont).text}</p>
+        </section>
+      ))}
+      {script.safetyLine ? <p className="safety-line">{localized(script.safetyLine).text}</p> : <SafetyLine />}
+      {!!script.articleIds?.length && (
+        <div className="article-chip-list">
+          {getFundamentalRights().filter((article) => script.articleIds?.includes(article.id)).map((article) => (
+            <Link className="article-chip" key={article.id} to={`/rights/${article.id}`}>
+              {t('rights.article')} {article.article}
+            </Link>
+          ))}
+        </div>
+      )}
       <button className="primary-action" type="button" onClick={() => setShowMode(true)}>{t('show.officer')}</button>
       {showMode && (
         <ShowToOfficer
@@ -591,6 +699,7 @@ function ContactsScreen() {
 function LibraryScreen() {
   const { t, lang, localized } = useI18n()
   const [query, setQuery] = useState('')
+  const articles = getFundamentalRights()
   const search = useMemo(
     () => new Fuse(modules, {
       threshold: 0.35,
@@ -600,6 +709,10 @@ function LibraryScreen() {
     [],
   )
   const matches = query.trim() ? search.search(query).map((result) => result.item) : modules
+  const normalizedQuery = normalizeArticleSearch(query)
+  const articleMatches = normalizedQuery
+    ? articles.filter((article) => articleMatchesQuery(article, normalizedQuery))
+    : []
   const groups = [...new Set(matches.map((module) => module.group))]
   const groupNames: Record<Module['group'], string> = {
     situation: t('group.situations'),
@@ -631,6 +744,20 @@ function LibraryScreen() {
           })}
         </section>
       ))}
+      {articleMatches.length > 0 && (
+        <section className="related-list">
+          <h2>{t('rights.allArticles')}</h2>
+          {articleMatches.map((article) => {
+            const name = localized(article.name)
+            return (
+              <Link className="related-link" key={article.id} to={`/rights/${article.id}`}>
+                <span>{t('rights.article')} {article.article} · {name.text}{lang === 'hi' && name.englishOnly && <span className="language-badge">{t('english.only')}</span>}</span>
+                <span>›</span>
+              </Link>
+            )
+          })}
+        </section>
+      )}
     </main>
   )
 }
@@ -714,6 +841,329 @@ function SearchInput({ value, onChange }: { value: string; onChange: (value: str
       <span>{t('search.label')}</span>
       <input type="search" value={value} onChange={(event) => onChange(event.target.value)} />
     </label>
+  )
+}
+
+function RightsScreen() {
+  const { t, lang, localized } = useI18n()
+  const [query, setQuery] = useState('')
+  const articles = getFundamentalRights()
+  const normalizedQuery = normalizeArticleSearch(query)
+  const matches = normalizedQuery
+    ? articles.filter((article) => articleMatchesQuery(article, normalizedQuery))
+    : articles
+  const groups = [...new Set(matches.map((article) => article.group))]
+  const keyNumbers = getKeyNumberGroups()
+
+  return (
+    <main className="page rights-page">
+      <Link className="back-link" to="/">{t('nav.home')}</Link>
+      <section className="screen-heading">
+        <h1>{t('rights.title')}</h1>
+        <p>{t('rights.intro')}</p>
+      </section>
+      <nav className="rights-actions" aria-label={t('home.more')}>
+        <Link className="secondary-action" to="/rights/finder">{t('rights.finder')}</Link>
+        <Link className="secondary-action" to="/rights/practice">{t('rights.practice')}</Link>
+        <Link className="secondary-action" to="/wallet-card">{t('rights.wallet')}</Link>
+      </nav>
+      <label className="search-label">
+        <span>{t('rights.search')}</span>
+        <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} />
+      </label>
+      <section className="key-number-section">
+        <h2>{t('rights.key8')}</h2>
+        <div className="key-number-grid">
+          {keyNumbers.map(({ keyGroup, article, memory }) => {
+            const memoryText = localized(memory)
+            return (
+              <Link className="key-number-tile" to={`/rights/${article.id}`} key={article.id}>
+                <strong>{keyGroup}</strong>
+                <span>{memoryText.text}</span>
+                {lang === 'hi' && memoryText.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+              </Link>
+            )
+          })}
+        </div>
+      </section>
+      <details className="legal-basis rights-notes">
+        <summary>{t('rights.readBefore')}</summary>
+        <p>{t('rights.note.articlesection')}</p>
+        <p>{t('rights.note.calm')}</p>
+      </details>
+      {matches.length === 0 && <p className="empty-state">{t('search.noResults')}</p>}
+      {groups.map((group) => (
+        <section className="related-list" key={group}>
+          <h2>{t(`rights.group.${group}`)}</h2>
+          {matches.filter((article) => article.group === group).map((article) => {
+            const name = localized(article.name)
+            const plain = localized(article.plain)
+            return (
+              <Link className="related-link rights-article-row" key={article.id} to={`/rights/${article.id}`}>
+                <span><strong>{t('rights.article')} {article.article} · {name.text}</strong><span className="rights-row-summary">{plain.text}</span></span>
+                {lang === 'hi' && (name.englishOnly || plain.englishOnly) && <span className="language-badge">{t('english.only')}</span>}
+              </Link>
+            )
+          })}
+        </section>
+      ))}
+    </main>
+  )
+}
+
+function RightsArticleScreen() {
+  const { id = '' } = useParams()
+  const { t, lang, localized } = useI18n()
+  const article = getFundamentalRights().find((item) => item.id.toLowerCase() === id.toLowerCase())
+  if (!article) return <Navigate to="/rights" replace />
+  const name = localized(article.name)
+  const plain = localized(article.plain)
+  const modulesForArticle = modules.filter((item) => article.moduleIds?.includes(item.id))
+  const scriptsForArticle = getScripts().filter((item) => article.scriptIds?.includes(item.id))
+  const sayScript = scriptsForArticle.find((script) => ['S15', 'S16', 'S17', 'S18', 'S19', 'S20'].includes(script.id)) ?? scriptsForArticle[0]
+  const lawRefs = getLawRefs()
+  const cases = getCases()
+  const citationRows = (article.refs ?? []).map((citationKey) => ({
+    citationKey,
+    lawEntry: lawRefs.find((entry) => entry.id === citationKey),
+    caseCard: cases.find((card) => card.id === citationKey),
+  })).filter((row) => row.lawEntry || row.caseCard)
+
+  function renderLocalized(value: { en: string; hi?: string }) {
+    const result = localized(value)
+    return <>{result.text}{result.englishOnly && <span className="language-badge">{t('english.only')}</span>}</>
+  }
+
+  return (
+    <main className="page rights-page">
+      <Link className="back-link" to="/rights">{t('rights.title')}</Link>
+      <div className="draft-banner" role="status">{t('banner.draft')}</div>
+      <section className="screen-heading">
+        <span className={`review-badge status-${article.status}`}>{t(`review.${article.status}`)}</span>
+        <span className="rights-article-number">{t('rights.article')} {article.article}</span>
+        <h1>{name.text}</h1>
+        {lang === 'hi' && name.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+        <p>{plain.text}</p>
+        {lang === 'hi' && plain.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+      </section>
+      <article className="step-card">
+        <h2>{t('rights.who')}</h2>
+        <p>{t(article.who === 'citizens' ? 'who.citizens' : article.who === 'every_person' ? 'who.all' : `rights.who.${article.who}`)}</p>
+      </article>
+      {article.limits && <article className="step-card"><h2>{t('rights.limits')}</h2><p>{renderLocalized(article.limits)}</p></article>}
+      {article.atProtest && <article className="step-card"><h2>{t('rights.protest')}</h2><p>{renderLocalized(article.atProtest)}</p></article>}
+      <details className="legal-basis rights-notes">
+        <summary>{t('rights.readBefore')}</summary>
+        <p>{t('rights.note.articlesection')}</p>
+        <p>{t('rights.note.calm')}</p>
+      </details>
+      {sayScript && (
+        <Link className="primary-action" to={`/scripts/${sayScript.id}?show=1`}>{t('rights.say')}</Link>
+      )}
+      {modulesForArticle.length > 0 || scriptsForArticle.length > 0 ? (
+        <section className="related-list">
+          <h2>{t('rights.related')}</h2>
+          {modulesForArticle.map((module) => {
+            const title = localized(module.title)
+            return <Link className="related-link" to={`/m/${module.id}`} key={module.id}><span>{title.text}</span><span>›</span></Link>
+          })}
+          {scriptsForArticle.map((script) => {
+            const when = localized(script.when)
+            return <Link className="related-link" to={`/scripts/${script.id}`} key={script.id}><span>{script.id} · {when.text}</span><span>›</span></Link>
+          })}
+        </section>
+      ) : null}
+      {citationRows.length > 0 && (
+        <details className="legal-basis">
+          <summary>{t('law.basis')}</summary>
+          <h2>{t('rights.references')}</h2>
+          {citationRows.map(({ citationKey, lawEntry, caseCard }) => {
+            if (caseCard) {
+              const caseName = localized(caseCard.name)
+              return <Link className="related-link" to="/cases" key={citationKey}><span>{caseName.text} · {caseCard.citation}</span><span>›</span></Link>
+            }
+            if (!lawEntry) return null
+            const label = localized(lawEntry.label)
+            return (
+              <article className="law-ref" key={citationKey}>
+                <strong>{label.text}</strong>
+                {lawEntry.current && <p>{lawEntry.current}</p>}
+                {lawEntry.verify && <small>{t('law.verify')}</small>}
+              </article>
+            )
+          })}
+        </details>
+      )}
+      <footer className="module-footer">
+        <span>{t('badge.drafted')}: {article.draftedOn}</span>
+        <span>{t('badge.verified')}: {article.lastVerified ?? t('badge.notyet')}</span>
+        <span className={`review-badge status-${article.status}`}>{t(`review.${article.status}`)}</span>
+        {article.verify && <small>{t('law.verify')}</small>}
+      </footer>
+    </main>
+  )
+}
+
+function ArticleFinderScreen() {
+  const { t, localized, lang } = useI18n()
+  const [query, setQuery] = useState('')
+  const articles = getFundamentalRights()
+  const rows = getArticleFinder().filter((row) => normalizeArticleSearch([
+    row.problem.en,
+    row.problem.hi,
+    row.plain.en,
+    row.plain.hi,
+  ].join(' ')).includes(normalizeArticleSearch(query)))
+
+  return (
+    <main className="page">
+      <Link className="back-link" to="/rights">{t('rights.title')}</Link>
+      <section className="screen-heading"><h1>{t('rights.finderTitle')}</h1><p>{t('rights.finderIntro')}</p></section>
+      <SearchInput value={query} onChange={setQuery} />
+      {rows.length === 0 && <p className="empty-state">{t('search.noResults')}</p>}
+      {rows.map((row) => {
+        const problem = localized(row.problem)
+        const plain = localized(row.plain)
+        return (
+          <article className="step-card finder-card" key={row.id}>
+            <h2>{problem.text}</h2>
+            {lang === 'hi' && problem.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+            <p>{plain.text}</p>
+            {lang === 'hi' && plain.englishOnly && <span className="language-badge">{t('english.only')}</span>}
+            <div className="article-chip-list">
+              {row.articles.map((articleId) => {
+                const article = articles.find((item) => item.id === articleId)
+                if (!article) return null
+                return <Link className="article-chip" to={`/rights/${article.id}`} key={article.id}>{t('rights.article')} {article.article}</Link>
+              })}
+            </div>
+            {row.moduleIds?.map((moduleId) => {
+              const module = modules.find((item) => item.id === moduleId)
+              return module && <Link className="related-inline-link" to={`/m/${module.id}`} key={module.id}>{localized(module.title).text}</Link>
+            })}
+            {row.scriptIds?.map((scriptId) => <Link className="related-inline-link" to={`/scripts/${scriptId}`} key={scriptId}>{scriptId}</Link>)}
+          </article>
+        )
+      })}
+    </main>
+  )
+}
+
+function RightsPracticeScreen() {
+  const { t, localized } = useI18n()
+  const { pinEnabled } = useVault()
+  const cards = useMemo(() => getFundamentalRights().filter((article) => article.priority <= 2), [])
+  const [deck, setDeck] = useState<string[]>([])
+  const [mode, setMode] = useState<'number' | 'plain'>('number')
+  const [flipped, setFlipped] = useState(false)
+  const [ready, setReady] = useState(false)
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    let active = true
+    readVault().then((data) => {
+      if (!active) return
+      setDeck(shuffle([...cards.filter((article) => !data.knownArticleIds.includes(article.id)).map((article) => article.id)]))
+    }).catch(() => {
+      if (active) setError(t('storage.progressReadError'))
+    }).finally(() => {
+      if (active) setReady(true)
+    })
+    return () => { active = false }
+  }, [cards, t])
+
+  const article = cards.find((item) => item.id === deck[0])
+
+  async function markKnown() {
+    if (!article) return
+    setError('')
+    try {
+      const vault = await readVault()
+      const nextIds = vault.knownArticleIds.includes(article.id)
+        ? vault.knownArticleIds
+        : [...vault.knownArticleIds, article.id]
+      await writeVault({ ...vault, knownArticleIds: nextIds })
+      setDeck((currentDeck) => currentDeck.filter((articleId) => articleId !== article.id))
+      setFlipped(false)
+    } catch {
+      setError(t('storage.progressWriteError'))
+    }
+  }
+
+  return (
+    <main className="page">
+      <Link className="back-link" to="/rights">{t('rights.title')}</Link>
+      <section className="screen-heading"><h1>{t('rights.practiceTitle')}</h1><p>{t('rights.practiceIntro')}</p></section>
+      {!pinEnabled && <p className="empty-state">{t('warn.nopin')}</p>}
+      <div className="practice-mode-switch" role="group" aria-label={t('rights.practiceTitle')}>
+        <button className={`tab-button${mode === 'number' ? ' active' : ''}`} type="button" onClick={() => { setMode('number'); setFlipped(false) }}>{t('practice.mode.number')}</button>
+        <button className={`tab-button${mode === 'plain' ? ' active' : ''}`} type="button" onClick={() => { setMode('plain'); setFlipped(false) }}>{t('practice.mode.plain')}</button>
+      </div>
+      <p className="practice-progress">{t('practice.left').replace('{count}', String(deck.length))}</p>
+      {!ready ? <p className="empty-state">{t('content.comingSoon')}</p> : article ? (
+        <>
+          <button className="flash-card" type="button" onClick={() => setFlipped((value) => !value)}>
+            <span className="eyebrow">{t('practice.flip')}</span>
+            <strong>{mode === 'number' ? (flipped ? localized(article.plain).text : article.article) : (flipped ? article.article : localized(article.plain).text)}</strong>
+          </button>
+          <div className="practice-card-actions">
+            <button className="primary-action" type="button" onClick={() => void markKnown()}>{t('practice.known')}</button>
+            <button className="secondary-action" type="button" onClick={() => { setDeck((currentDeck) => [...currentDeck.slice(1), article.id]); setFlipped(false) }}>{t('practice.again')}</button>
+            <button className="secondary-action" type="button" onClick={() => { setDeck((currentDeck) => shuffle(currentDeck)); setFlipped(false) }}>{t('practice.shuffle')}</button>
+          </div>
+        </>
+      ) : <p className="step-card">{t('practice.done')}</p>}
+      {error && <p className="error-message" role="alert">{error}</p>}
+    </main>
+  )
+}
+
+function WalletCardScreen() {
+  const { t, localized } = useI18n()
+  const goldenRules = modules.find((module) => module.id === 'M01')
+  const keyNumbers = getKeyNumberGroups()
+  const scripts = getScripts().filter((script) => ['S01', 'S02', 'S03', 'S04', 'S05', 'S06', 'S07', 'S20'].includes(script.id))
+  const contacts = getContacts()
+
+  return (
+    <main className="page wallet-page">
+      <Link className="back-link no-print" to="/">{t('nav.home')}</Link>
+      <div className="wallet-toolbar no-print">
+        <h1>{t('wallet.title')}</h1>
+        <button className="primary-action" type="button" onClick={() => window.print()}>{t('wallet.print')}</button>
+      </div>
+      <div className="wallet-card wallet-front">
+        <h1>{t('wallet.title')}</h1>
+        <p className="wallet-warning">{t('wallet.verifyWarning')}</p>
+        <section>
+          <h2>{t('wallet.rules')}</h2>
+          <ol className="wallet-rules">
+            {goldenRules?.steps.map((step, index) => <li key={index}>{localized(step.text).text}</li>)}
+          </ol>
+        </section>
+        <section>
+          <h2>{t('wallet.keyNumbers')}</h2>
+          <div className="wallet-key-grid">
+            {keyNumbers.map(({ keyGroup, article, memory }) => <div key={article.id}><strong>{keyGroup}</strong><span>{localized(memory).text}</span></div>)}
+          </div>
+        </section>
+      </div>
+      <div className="wallet-card wallet-back">
+        <section>
+          <h2>{t('wallet.scripts')}</h2>
+          <ol className="wallet-scripts">
+            {scripts.map((script) => <li key={script.id}><strong>{script.id}:</strong> {script.en}<br /><span lang="hi">{script.hi}</span></li>)}
+          </ol>
+        </section>
+        <section>
+          <h2>{t('wallet.contacts')}</h2>
+          <ul className="wallet-contact-list">
+            {contacts.map((contact) => <li key={contact.id}>{localized(contact.label).text}: <strong>{contact.number}</strong></li>)}
+          </ul>
+        </section>
+        <p className="wallet-warning">{t('wallet.verifyWarning')}</p>
+      </div>
+    </main>
   )
 }
 
@@ -1034,7 +1484,7 @@ function AboutScreen() {
   const limits = localized(about.limits)
   const privacyNote = localized(about.privacyNote)
   const codeLicense = localized(about.codeLicense)
-  const contentLicense = localized(about.contentLicense)
+  // const contentLicense = localized(about.contentLicense)
   return (
     <main className="page">
       <Link className="back-link" to="/">{t('nav.home')}</Link>
@@ -1058,7 +1508,7 @@ function AboutScreen() {
       </section>
       <p>{t('about.contentVersion')}: {about.contentVersion}</p>
       <p>{t('about.codeLicense')}: {codeLicense.text}{lang === 'hi' && codeLicense.englishOnly && <span className="language-badge">{t('english.only')}</span>}</p>
-      <p>{t('about.contentLicense')}: {contentLicense.text}{lang === 'hi' && contentLicense.englishOnly && <span className="language-badge">{t('english.only')}</span>}</p>
+      {/* <p>{t('about.contentLicense')}: {contentLicense.text}{lang === 'hi' && contentLicense.englishOnly && <span className="language-badge">{t('english.only')}</span>}</p> */}
       <p>{t('about.offline')}</p>
     </main>
   )

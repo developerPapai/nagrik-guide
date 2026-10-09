@@ -1,7 +1,7 @@
 {
   "name": "nagrik-guide",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "validate:offline": "tsx scripts/validate-offline.ts",
     "export:review": "tsx scripts/export-review.ts",
     "test:crypto": "tsx --test scripts/crypto.test.ts",
-    "android:sync": "npm run build && npx cap sync android",
+    "android:sync": "npm run build && npx cap sync android && npm run android:icons",
+    "android:icons": "tsx scripts/sync-android-icons.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

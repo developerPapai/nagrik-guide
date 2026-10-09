@@ -45,7 +45,49 @@ export interface Script {
   hiRoman: string
   when: L10n
   warning?: L10n
+  safetyLine?: L10n
+  tips?: ScriptTip[]
+  articleIds?: string[]
   translation?: ReviewStatus
+}
+
+export interface ScriptTip {
+  do: L10n
+  dont: L10n
+}
+
+export type FRGroup = 'equality' | 'freedom' | 'exploitation' | 'religion' | 'cultural_educational' | 'remedies' | 'related'
+export type FRWho = 'citizens' | 'every_person' | 'children' | 'minorities' | 'denominations' | 'other'
+
+export interface FRArticle {
+  id: string
+  article: string
+  group: FRGroup
+  name: L10n
+  plain: L10n
+  who: FRWho
+  limits?: L10n
+  atProtest?: L10n
+  scriptIds?: string[]
+  moduleIds?: string[]
+  refs?: string[]
+  priority: 1 | 2 | 3
+  tags: string[]
+  status: ReviewStatus
+  draftedOn: string
+  lastVerified: string | null
+  verify: true
+  keyGroup?: string
+  memory?: L10n
+}
+
+export interface ArticleFinderRow {
+  id: string
+  problem: L10n
+  articles: string[]
+  plain: L10n
+  moduleIds?: string[]
+  scriptIds?: string[]
 }
 
 export interface Contact {
@@ -115,4 +157,5 @@ export interface VaultData {
   notes: IncidentNote[]
   contacts: UserContact[]
   checklistTicks: string[]
+  knownArticleIds: string[]
 }

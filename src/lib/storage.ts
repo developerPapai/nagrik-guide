@@ -20,7 +20,16 @@ interface EncryptedVault {
 type VaultRecord = PlainVault | EncryptedVault
 let encryptionKey: CryptoKey | null = null
 
-const emptyVault = (): VaultData => ({ notes: [], contacts: [], checklistTicks: [] })
+const emptyVault = (): VaultData => ({ notes: [], contacts: [], checklistTicks: [], knownArticleIds: [] })
+
+function normalizeVaultData(data: Partial<VaultData>): VaultData {
+  return {
+    notes: data.notes ?? [],
+    contacts: data.contacts ?? [],
+    checklistTicks: data.checklistTicks ?? [],
+    knownArticleIds: data.knownArticleIds ?? [],
+  }
+}
 
 export function isPinEnabled(): boolean {
   return localStorage.getItem(pinFlag) === 'true'
@@ -38,7 +47,7 @@ export async function enablePin(pin: string): Promise<void> {
   if (!/^\d{6,}$/.test(pin)) throw new Error('PIN must contain at least 6 digits')
   const current = await get<VaultRecord | undefined>(vaultKey)
   if (current?.mode === 'encrypted') throw new Error('A PIN is already set')
-  const data = current?.mode === 'plain' ? current.data : emptyVault()
+  const data = current?.mode === 'plain' ? normalizeVaultData(current.data) : emptyVault()
   const salt = randomBytes(16)
   const key = await deriveEncryptionKey(pin, salt)
   const encrypted = await encryptText(JSON.stringify(data), key)
@@ -64,9 +73,9 @@ export async function unlockVault(pin: string): Promise<void> {
 export async function readVault(): Promise<VaultData> {
   const record = await get<VaultRecord | undefined>(vaultKey)
   if (!record) return emptyVault()
-  if (record.mode === 'plain') return record.data
+  if (record.mode === 'plain') return normalizeVaultData(record.data)
   if (!encryptionKey) throw new Error('Unlock the app to read private data')
-  return JSON.parse(await decryptText(record, encryptionKey)) as VaultData
+  return normalizeVaultData(JSON.parse(await decryptText(record, encryptionKey)) as Partial<VaultData>)
 }
 
 export async function writeVault(data: VaultData): Promise<void> {

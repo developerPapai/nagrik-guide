@@ -542,6 +542,234 @@ h2 {
   background: var(--review-bg);
 }
 
+.rights-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: 0.6rem;
+}
+
+.rights-actions a,
+.article-chip,
+.related-inline-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  border: 1px solid var(--border);
+  border-radius: 0.7rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--link);
+  background: var(--surface);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.key-number-section {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.key-number-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.key-number-tile {
+  display: grid;
+  align-content: start;
+  gap: 0.35rem;
+  min-height: 5.5rem;
+  border: 2px solid var(--accent);
+  border-radius: 0.9rem;
+  padding: 0.75rem;
+  color: var(--text-strong);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.key-number-tile strong,
+.practice-memory-link strong {
+  color: var(--accent);
+  font-size: 1.35rem;
+}
+
+.rights-article-row {
+  gap: 0.75rem;
+  min-height: 4rem;
+}
+
+.rights-article-row > span:first-child {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.rights-row-summary {
+  color: var(--text-muted);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.rights-article-number {
+  color: var(--accent);
+  font-size: clamp(2rem, 10vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.article-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.article-chip {
+  min-height: 3rem;
+}
+
+.related-inline-link {
+  justify-self: start;
+  min-width: 3rem;
+}
+
+.rights-notes p {
+  margin: 0.6rem 0;
+  line-height: 1.6;
+}
+
+.finder-card {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.practice-progress {
+  color: var(--text-muted);
+  font-weight: 750;
+}
+
+.practice-mode-switch,
+.practice-card-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.flash-card {
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  min-height: min(45vh, 20rem);
+  border: 2px solid var(--accent);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  color: var(--text-strong);
+  background: var(--surface);
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flash-card strong {
+  color: var(--accent);
+  font-size: clamp(1.8rem, 8vw, 3rem);
+  line-height: 1.25;
+}
+
+.practice-card-actions > :last-child {
+  grid-column: 1 / -1;
+}
+
+.practice-tile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  padding: 0.75rem;
+  background: var(--surface);
+}
+
+.practice-memory-link {
+  display: grid;
+  gap: 0.2rem;
+  color: var(--text-strong);
+  text-decoration: none;
+}
+
+.wallet-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.wallet-card {
+  display: grid;
+  gap: 0.75rem;
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--surface);
+}
+
+.wallet-card h1 {
+  font-size: 1.5rem;
+}
+
+.wallet-card h2 {
+  margin-bottom: 0.35rem;
+}
+
+.wallet-warning {
+  margin: 0;
+  color: var(--warning-text);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.wallet-rules,
+.wallet-scripts,
+.wallet-contact-list {
+  margin: 0;
+  padding-inline-start: 1.35rem;
+}
+
+.wallet-rules li,
+.wallet-scripts li,
+.wallet-contact-list li {
+  margin-block: 0.25rem;
+  line-height: 1.4;
+}
+
+.wallet-key-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
+}
+
+.wallet-key-grid > div {
+  display: grid;
+  align-content: start;
+  gap: 0.1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+
+.wallet-key-grid strong {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.script-tips p + p {
+  margin-top: 0.5rem;
+}
+
 .legal-basis summary {
   display: flex;
   align-items: center;
@@ -676,5 +904,110 @@ h2 {
 
   .theme-toggle {
     display: none;
+  }
+
+  .practice-tile {
+    grid-template-columns: 1fr;
+  }
+}
+
+@page {
+  size: A6 landscape;
+  margin: 4mm;
+}
+
+@media print {
+  body {
+    min-width: 0;
+    color: #000000;
+    background: #ffffff;
+    font-size: 8pt;
+  }
+
+  .topbar,
+  .site-footer,
+  .draft-banner,
+  .no-print,
+  .wallet-toolbar {
+    display: none !important;
+  }
+
+  .app-shell {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wallet-page {
+    display: block;
+    padding: 0;
+  }
+
+  .wallet-card {
+    display: block;
+    width: 100%;
+    min-height: 95mm;
+    border: 1px solid #333333;
+    border-radius: 0;
+    padding: 2mm;
+    color: #000000;
+    background: #ffffff;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .wallet-front {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .wallet-card h1 {
+    margin-bottom: 1mm;
+    font-size: 12pt;
+  }
+
+  .wallet-card h2 {
+    margin-block: 1mm;
+    font-size: 9pt;
+  }
+
+  .wallet-rules,
+  .wallet-scripts,
+  .wallet-contact-list {
+    padding-inline-start: 4mm;
+  }
+
+  .wallet-rules li,
+  .wallet-scripts li,
+  .wallet-contact-list li {
+    margin-block: 0.5mm;
+    line-height: 1.15;
+  }
+
+  .wallet-scripts {
+    columns: 2;
+    column-gap: 5mm;
+  }
+
+  .wallet-scripts li {
+    break-inside: avoid;
+  }
+
+  .wallet-key-grid {
+    gap: 1mm;
+  }
+
+  .wallet-key-grid > div {
+    padding: 1mm;
+  }
+
+  .wallet-key-grid strong {
+    font-size: 9pt;
+  }
+
+  .wallet-warning {
+    margin-block: 1mm;
+    font-size: 7pt;
   }
 }

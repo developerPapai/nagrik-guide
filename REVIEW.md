@@ -1,6 +1,6 @@
 # Legal content review
 
-All content is a draft until reviewed by an advocate.
+All content is a draft until reviewed by an advocate. Verify every legal proposition and citation before publication.
 
 ## M01: Ten Golden Rules
 
@@ -615,6 +615,1179 @@ Hindi summary: स्थानीय कानून-व्यवस्था �
 
 Reviewer comments:
 
+## M14: Your Fundamental Rights: the numbers to remember
+
+Status: ai_draft
+
+The Constitution's Part III lists fundamental rights. These eight numbers matter most at a protest: 14, 19, 20(3), 21, 22(1), 22(2), 32, 226.
+
+Hindi title: आपके मौलिक अधिकार: याद रखने योग्य अनुच्छेद
+
+Hindi summary: संविधान के भाग III में मौलिक अधिकार दिए गए हैं। प्रदर्शन में ये आठ अनुच्छेद विशेष रूप से याद रखें: 14, 19, 20(3), 21, 22(1), 22(2), 32, 226।
+
+> Gray area: There is no Article titled “right to protest”; courts read it from Articles 19(1)(a), (b), and (c).
+
+> Hindi: “प्रदर्शन का अधिकार” नाम से कोई अनुच्छेद नहीं है; अदालतें इसे अनुच्छेद 19(1)(क), (ख) और (ग) से जोड़कर देखती हैं।
+
+> Gray area: Article 19 rights belong to citizens; Articles 14, 20, 21, and 22 belong to every person.
+
+> Hindi: अनुच्छेद 19 के अधिकार नागरिकों के हैं; अनुच्छेद 14, 20, 21 और 22 हर व्यक्ति के लिए हैं।
+
+> Gray area: Rights have limits, and courts often judge a restriction only after the event.
+
+> Hindi: अधिकारों की सीमाएँ हैं और अदालतें अक्सर किसी प्रतिबंध का मूल्यांकन घटना के बाद करती हैं।
+
+- **know:** An Article is the big promise. A section is the exact procedure. Articles are in the Constitution; sections are in laws such as the BNSS and BNS.
+  - Hindi: अनुच्छेद एक बड़ा अधिकार बताता है। धारा सटीक प्रक्रिया बताती है। अनुच्छेद संविधान में होते हैं; धाराएँ BNSS और BNS जैसे कानूनों में होती हैं।
+  - Reference: Meaning of State; laws against fundamental rights are void / राज्य का अर्थ; मौलिक अधिकारों के विरुद्ध कानून शून्य; current: Constitution Arts. 12, 13; old: —
+- **know:** Fundamental rights are mainly claimed against the State, which includes the police.
+  - Hindi: मौलिक अधिकारों का दावा मुख्यतः राज्य के विरुद्ध किया जाता है, जिसमें पुलिस भी शामिल है।
+  - Reference: Meaning of State; laws against fundamental rights are void / राज्य का अर्थ; मौलिक अधिकारों के विरुद्ध कानून शून्य; current: Constitution Arts. 12, 13; old: —
+- **know:** Articles 19(1)(a), (b), (c), and (d) protect speech, peaceful and unarmed assembly, forming groups, and movement for citizens, subject to limits in Articles 19(2)–(5).
+  - Hindi: अनुच्छेद 19(1)(क), (ख), (ग) और (घ) नागरिकों को बोलने, शांतिपूर्वक और निरायुध सभा करने, समूह बनाने और आने-जाने की स्वतंत्रता देते हैं; अनुच्छेद 19(2)–(5) की सीमाएँ लागू होती हैं।
+  - Reference: Free speech and peaceful assembly; reasonable restrictions / अभिव्यक्ति और शांतिपूर्ण सभा की स्वतंत्रता; उचित प्रतिबंध; current: Constitution Art. 19(1)(a),(b); 19(2),(3); old: —
+  - Reference: Freedom to form associations and unions / संघ और यूनियन बनाने की स्वतंत्रता; current: Constitution Art. 19(1)(c), 19(4); old: —
+  - Reference: Freedom of movement / आवागमन की स्वतंत्रता; current: Constitution Art. 19(1)(d), 19(5); old: —
+  - Reference: Limits on Article 19 freedoms / अनुच्छेद 19 की स्वतंत्रताओं की सीमाएँ; current: Constitution Art. 19(2)–(5); old: —
+- **know:** Under Article 20(3), you cannot be forced to be a witness against yourself.
+  - Hindi: अनुच्छेद 20(3) के तहत आपको अपने विरुद्ध गवाह बनने के लिए मजबूर नहीं किया जा सकता।
+  - Reference: No compelled self-incrimination / अपने विरुद्ध गवाही देने के लिए बाध्य न किया जाना; current: Constitution Art. 20(3); old: —
+  - Reference: Nandini Satpathy v. P.L. Dani / नंदिनी सत्पथी बनाम पी.एल. दानी (Nandini Satpathy v. P.L. Dani); current: (1978) 2 SCC 424; old: —
+  - Reference: Selvi v. State of Karnataka / सेल्वी बनाम कर्नाटक राज्य (Selvi v. State of Karnataka); current: (2010) 7 SCC 263; old: —
+- **know:** Article 21 protects life and liberty through fair legal procedure; courts have also discussed dignity, protection from torture, and privacy.
+  - Hindi: अनुच्छेद 21 निष्पक्ष कानूनी प्रक्रिया के ज़रिए जीवन और स्वतंत्रता की रक्षा करता है; अदालतों ने गरिमा, यातना से सुरक्षा और निजता पर भी विचार किया है।
+  - Reference: Life and liberty / जीवन और व्यक्तिगत स्वतंत्रता; current: Constitution Art. 21; old: —
+  - Case: Maneka Gandhi v. Union of India / मेनका गांधी बनाम भारत संघ; citation: (1978) 1 SCC 248; verify: true
+  - Reference: D.K. Basu v. State of West Bengal / डी.के. बसु बनाम पश्चिम बंगाल राज्य (D.K. Basu v. State of West Bengal); current: (1997) 1 SCC 416; old: —
+  - Reference: K.S. Puttaswamy v. Union of India / के.एस. पुट्टस्वामी बनाम भारत संघ (K.S. Puttaswamy v. Union of India); current: (2017) 10 SCC 1; old: —
+- **know:** Articles 22(1) and 22(2) concern being told the grounds of arrest, consulting a lawyer of your choice, and being taken before a Magistrate within 24 hours.
+  - Hindi: अनुच्छेद 22(1) और 22(2) गिरफ़्तारी के आधार बताए जाने, अपनी पसंद के वकील से सलाह लेने और 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश किए जाने से जुड़े हैं।
+  - Reference: Grounds of arrest, lawyer and production before a Magistrate / गिरफ़्तारी के आधार, वकील और मजिस्ट्रेट के सामने पेशी; current: Constitution Art. 22(1),(2); old: —
+- **know:** The Supreme Court and High Courts can protect fundamental rights. Habeas corpus is a usual remedy for illegal detention.
+  - Hindi: सर्वोच्च न्यायालय और उच्च न्यायालय मौलिक अधिकारों की रक्षा कर सकते हैं। गैरकानूनी हिरासत में बंदी प्रत्यक्षीकरण सामान्य उपाय है।
+  - Reference: Writs including habeas corpus / बंदी प्रत्यक्षीकरण सहित रिट; current: Constitution Arts. 32, 226; old: —
+- **know:** Article 39A is a Directive Principle. Free legal aid for people in custody is available under law.
+  - Hindi: अनुच्छेद 39A राज्य के नीति-निदेशक तत्वों में है। हिरासत में लोगों के लिए कानून के तहत निःशुल्क कानूनी सहायता उपलब्ध है।
+  - Reference: Free legal aid / निःशुल्क कानूनी सहायता; current: Constitution Art. 39A; old: —
+  - Reference: Free legal services to any person in custody / हिरासत में किसी भी व्यक्ति को निःशुल्क कानूनी सेवाएँ; current: Legal Services Authorities Act 1987, s.12(g); old: —
+- **do:** Learn the eight numbers in Practice mode. Use scripts S15–S20 calmly. Write down what the officer says and the time.
+  - Hindi: अभ्यास में आठ अनुच्छेद याद करें। S15–S20 वाक्यों का शांतिपूर्वक उपयोग करें। अधिकारी क्या कहते हैं और समय लिख लें।
+- **dont:** Do not lecture or over-claim. Do not use force or assume quoting an Article will end the situation.
+  - Hindi: लंबा भाषण न दें और अधिकारों का बढ़ा-चढ़ाकर दावा न करें। बल का प्रयोग न करें और यह न मानें कि अनुच्छेद बताने से स्थिति समाप्त हो जाएगी।
+- **say:** Officer, under Article 22(1) of the Constitution I have the right to be told the reason for my arrest and to consult a lawyer of my choice. May I know the reason, please?
+  - Hindi: अधिकारी महोदय, संविधान के अनुच्छेद 22(1) के अनुसार मुझे अपनी गिरफ़्तारी का कारण जानने और अपनी पसंद के वकील से सलाह लेने का अधिकार है। कृपया मुझे कारण बताइए।
+- **say:** Under Article 22(2), I must be produced before the nearest Magistrate within 24 hours of my arrest, not counting travel time. Please take me before a Magistrate.
+  - Hindi: अनुच्छेद 22(2) के अनुसार गिरफ़्तारी के 24 घंटे के भीतर (यात्रा का समय छोड़कर) मुझे निकटतम मजिस्ट्रेट के सामने पेश किया जाना चाहिए। कृपया मुझे मजिस्ट्रेट के सामने ले चलिए।
+- **say:** Under Article 20(3), no accused person can be forced to be a witness against himself. I choose to remain silent until I speak to my lawyer.
+  - Hindi: अनुच्छेद 20(3) के अनुसार किसी भी आरोपी को अपने विरुद्ध गवाह बनने के लिए बाध्य नहीं किया जा सकता। मैं अपने वकील से बात होने तक चुप रहना चाहता/चाहती हूँ।
+- **say:** Article 21 protects my life and personal liberty. I am cooperating and not resisting. Please follow the procedure laid down by law and do not use force.
+  - Hindi: अनुच्छेद 21 मेरे जीवन और व्यक्तिगत स्वतंत्रता की रक्षा करता है। मैं सहयोग कर रहा/रही हूँ और विरोध नहीं कर रहा/रही। कृपया कानून द्वारा तय प्रक्रिया का पालन कीजिए और बल प्रयोग न कीजिए।
+- **say:** I am protesting peacefully and without arms. Article 19(1)(a) and 19(1)(b) protect free speech and peaceful assembly. If there is an order restricting this gathering, please show it to me in writing.
+  - Hindi: मैं शांतिपूर्ण और निहत्था प्रदर्शन कर रहा/रही हूँ। अनुच्छेद 19(1)(क) और 19(1)(ख) बोलने की स्वतंत्रता और शांतिपूर्ण सभा का अधिकार देते हैं। यदि इस सभा पर कोई प्रतिबंध-आदेश है, तो कृपया मुझे लिखित में दिखाइए।
+- **say:** I will cooperate peacefully. Under Article 22(1), please tell me the reason for my arrest. Under Article 20(3), I will stay silent. Under Article 22(2), I must be produced before a Magistrate within 24 hours. I want my lawyer.
+  - Hindi: मैं शांतिपूर्वक सहयोग करूँगा/करूँगी। अनुच्छेद 22(1) के अनुसार कृपया मुझे गिरफ़्तारी का कारण बताइए। अनुच्छेद 20(3) के अनुसार मैं चुप रहूँगा/रहूँगी। अनुच्छेद 22(2) के अनुसार 24 घंटे के भीतर मुझे मजिस्ट्रेट के सामने पेश किया जाना चाहिए। मुझे अपना वकील चाहिए।
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+## Fundamental Rights Articles
+
+### Article 14: Equality before law
+
+Status: ai_draft; verify: true
+
+English: The law must treat everyone equally. The State cannot act in an arbitrary or unfair way.
+
+Hindi: कानून की नज़र में सब बराबर हैं और कानून की सुरक्षा सबको बराबर मिलनी चाहिए।
+
+Who is covered: every_person
+
+Limits (English): The State may treat different groups differently only for a reasonable purpose.
+
+Limits (Hindi): राज्य अलग-अलग समूहों के साथ अलग व्यवहार केवल उचित उद्देश्य के लिए कर सकता है।
+
+At a protest (English): This protection applies to every person, including non-citizens. It does not by itself settle whether a particular police action is lawful.
+
+At a protest (Hindi): यह सुरक्षा गैर-नागरिकों सहित हर व्यक्ति पर लागू होती है। इससे अपने-आप यह तय नहीं होता कि कोई विशेष पुलिस कार्रवाई वैध है या नहीं।
+
+Memory phrase: Same / समान
+
+References: const-14
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 15: No discrimination
+
+Status: ai_draft; verify: true
+
+English: The State cannot discriminate only because of religion, race, caste, sex, or place of birth.
+
+Hindi: राज्य केवल धर्म, मूलवंश, जाति, लिंग या जन्म-स्थान के आधार पर भेदभाव नहीं कर सकता।
+
+Who is covered: citizens
+
+Limits (English): Special provisions for women, children, and disadvantaged groups are allowed.
+
+Limits (Hindi): महिलाओं, बच्चों और वंचित समूहों के लिए विशेष प्रावधान किए जा सकते हैं।
+
+At a protest (English): This protection concerns State discrimination on the listed grounds; ask a lawyer how it applies to a specific incident.
+
+At a protest (Hindi): यह सुरक्षा बताए गए आधारों पर राज्य द्वारा किए जाने वाले भेदभाव से जुड़ी है; किसी विशेष घटना में इसका प्रयोग वकील से पूछें।
+
+References: const-15
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 16: Equal opportunity in public jobs
+
+Status: ai_draft; verify: true
+
+English: Citizens have equal opportunity in government jobs.
+
+Hindi: नागरिकों को सरकारी नौकरियों में समान अवसर मिलता है।
+
+Who is covered: citizens
+
+Limits (English): Reservations and other provisions are allowed by the Constitution.
+
+Limits (Hindi): संविधान आरक्षण और अन्य विशेष प्रावधानों की अनुमति देता है।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 17: End of untouchability
+
+Status: ai_draft; verify: true
+
+English: Untouchability is abolished and its practice is forbidden.
+
+Hindi: अस्पृश्यता समाप्त की गई है और उसका पालन निषिद्ध है।
+
+Who is covered: every_person
+
+Limits (English): Practising untouchability is punishable under law.
+
+Limits (Hindi): अस्पृश्यता का पालन कानून के तहत दंडनीय है।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 18: End of titles
+
+Status: ai_draft; verify: true
+
+English: The State cannot confer titles, except military and academic distinctions.
+
+Hindi: राज्य सैन्य और शैक्षणिक विशिष्टताओं को छोड़कर उपाधियाँ प्रदान नहीं कर सकता।
+
+Who is covered: citizens
+
+Limits (English): Military and academic distinctions are excepted.
+
+Limits (Hindi): सैन्य और शैक्षणिक विशिष्टताएँ अपवाद हैं।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(a): Freedom of speech and expression
+
+Status: ai_draft; verify: true
+
+English: You can say, write, and express your views through speech, slogans, posters, art, and online expression.
+
+Hindi: आप बोलकर, लिखकर और नारे, पोस्टर, कला या ऑनलाइन माध्यम से अपनी बात व्यक्त कर सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Article 19(2) lists grounds for reasonable restrictions, including sovereignty and integrity of India, security of the State, public order, decency or morality, contempt of court, defamation, and incitement to an offence. Discussion and advocacy are protected; incitement may be restricted.
+
+Limits (Hindi): अनुच्छेद 19(2) में उचित प्रतिबंधों के आधार दिए गए हैं, जिनमें भारत की संप्रभुता और अखंडता, राज्य की सुरक्षा, सार्वजनिक व्यवस्था, शिष्टता या नैतिकता, न्यायालय की अवमानना, मानहानि और अपराध के लिए उकसाना शामिल हैं। चर्चा और समर्थन संरक्षित हैं; उकसाने पर प्रतिबंध हो सकता है।
+
+At a protest (English): Peaceful slogans and placards can express a view, subject to lawful and reasonable restrictions.
+
+At a protest (Hindi): शांतिपूर्ण नारे और पोस्टर विचार व्यक्त कर सकते हैं, पर वैध और उचित प्रतिबंध लागू हो सकते हैं।
+
+Memory phrase: Speak, Gather, Unite, Move / बोलें, जुटें, जुड़ें, चलें
+
+References: const-19, case-shreya
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(b): Freedom to assemble peacefully
+
+Status: ai_draft; verify: true
+
+English: Citizens can gather with others peacefully and without arms.
+
+Hindi: नागरिक शांतिपूर्वक और बिना हथियार के दूसरों के साथ एकत्र हो सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Article 19(3) permits restrictions in the interests of sovereignty and integrity of India or public order. BNSS section 163 orders can restrict gatherings. Courts have said protests cannot block public roads indefinitely. There is no fundamental right to force a bandh or hartal on others; verify the case law.
+
+Limits (Hindi): अनुच्छेद 19(3) भारत की संप्रभुता और अखंडता या सार्वजनिक व्यवस्था के हित में प्रतिबंधों की अनुमति देता है। BNSS की धारा 163 के आदेश सभाओं पर रोक लगा सकते हैं। अदालतों ने कहा है कि प्रदर्शन से सार्वजनिक सड़कें अनिश्चितकाल तक अवरुद्ध नहीं की जा सकतीं। दूसरों पर बंद या हड़ताल थोपने का मौलिक अधिकार नहीं है; संबंधित निर्णयों की पुष्टि करें।
+
+At a protest (English): A peaceful, unarmed assembly is protected, subject to lawful restrictions. Ask calmly to see any order in writing.
+
+At a protest (Hindi): शांतिपूर्ण और निरायुध सभा संरक्षित है, लेकिन वैध प्रतिबंध लागू हो सकते हैं। किसी आदेश को शांतिपूर्वक लिखित रूप में दिखाने को कहें।
+
+Memory phrase: Speak, Gather, Unite, Move / बोलें, जुटें, जुड़ें, चलें
+
+References: const-19, const-19-2to5, bnss-163, case-ramlila, case-mkss, case-amitsahni, case-bharatkumar
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(c): Freedom to form associations and unions
+
+Status: ai_draft; verify: true
+
+English: Citizens can form organisations, groups, unions, and cooperative societies.
+
+Hindi: नागरिक संगठन, समूह, यूनियन और सहकारी समितियाँ बना सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Article 19(4) permits reasonable restrictions in the interests of sovereignty and integrity of India, public order, or morality.
+
+Limits (Hindi): अनुच्छेद 19(4) भारत की संप्रभुता और अखंडता, सार्वजनिक व्यवस्था या नैतिकता के हित में उचित प्रतिबंधों की अनुमति देता है।
+
+At a protest (English): This includes forming or joining groups, subject to the limits in the Constitution.
+
+At a protest (Hindi): संविधान में दी गई सीमाओं के अधीन समूह बनाना या उनसे जुड़ना इसमें शामिल है।
+
+Memory phrase: Speak, Gather, Unite, Move / बोलें, जुटें, जुड़ें, चलें
+
+References: const-19-1-c, const-19-2to5
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(d): Freedom to move freely
+
+Status: ai_draft; verify: true
+
+English: Citizens can move freely throughout India.
+
+Hindi: नागरिक पूरे भारत में स्वतंत्र रूप से आ-जा सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Article 19(5) permits reasonable restrictions in the interests of the general public or for the protection of Scheduled Tribes. This does not allow blocking other people's movement.
+
+Limits (Hindi): अनुच्छेद 19(5) आम जनता के हित में या अनुसूचित जनजातियों के संरक्षण के लिए उचित प्रतिबंधों की अनुमति देता है। यह दूसरों के आने-जाने में बाधा डालने का अधिकार नहीं देता।
+
+At a protest (English): This freedom does not permit blocking other people's movement; restrictions may apply by law.
+
+At a protest (Hindi): यह स्वतंत्रता दूसरों के आने-जाने में बाधा डालने की अनुमति नहीं देती; कानून के तहत प्रतिबंध लागू हो सकते हैं।
+
+Memory phrase: Speak, Gather, Unite, Move / बोलें, जुटें, जुड़ें, चलें
+
+References: const-19-1-d, const-19-2to5
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(e): Freedom to live and settle anywhere
+
+Status: ai_draft; verify: true
+
+English: Citizens can live and settle in any part of India.
+
+Hindi: नागरिक भारत के किसी भी भाग में निवास कर सकते हैं और बस सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Reasonable restrictions under Article 19(5) apply.
+
+Limits (Hindi): अनुच्छेद 19(5) के तहत उचित प्रतिबंध लागू होते हैं।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(1)(g): Freedom of profession and trade
+
+Status: ai_draft; verify: true
+
+English: Citizens can practise a profession or carry on an occupation, trade, or business.
+
+Hindi: नागरिक कोई वृत्ति अपना सकते हैं या कोई पेशा, व्यापार अथवा कारोबार कर सकते हैं।
+
+Who is covered: citizens
+
+Limits (English): Reasonable restrictions under Article 19(6) apply.
+
+Limits (Hindi): अनुच्छेद 19(6) के तहत उचित प्रतिबंध लागू होते हैं।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 19(2)–(5): Limits on Article 19 freedoms
+
+Status: ai_draft; verify: true
+
+English: A restriction must be made by law, serve a ground listed in the Constitution, and be reasonable. Courts can review restrictions.
+
+Hindi: प्रतिबंध कानून के तहत होना चाहिए, संविधान में बताए गए किसी आधार के लिए होना चाहिए और उचित होना चाहिए। अदालतें प्रतिबंधों की समीक्षा कर सकती हैं।
+
+Who is covered: citizens
+
+Limits (English): Whether a particular restriction is reasonable is often decided by courts later.
+
+Limits (Hindi): कोई विशेष प्रतिबंध उचित है या नहीं, इसका निर्णय अक्सर बाद में अदालतें करती हैं।
+
+At a protest (English): Ask which written law or order applies. Do not assume every restriction is invalid.
+
+At a protest (Hindi): पूछें कि कौन-सा लिखित कानून या आदेश लागू है। यह न मानें कि हर प्रतिबंध अवैध है।
+
+References: const-19-2to5
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 20(1)–(2): Protection from retrospective and double punishment
+
+Status: ai_draft; verify: true
+
+English: You cannot be punished for something that was not an offence when done, or prosecuted and punished twice for the same offence.
+
+Hindi: जिस समय कोई काम किया गया, तब वह अपराध न हो तो उसके लिए दंड नहीं दिया जा सकता; और एक ही अपराध के लिए दो बार अभियोजन और दंड नहीं दिया जा सकता।
+
+Who is covered: every_person
+
+Limits (English): A lawyer can advise how these protections apply to a particular case.
+
+Limits (Hindi): किसी विशेष मामले में इन सुरक्षाओं का प्रयोग वकील बता सकता है।
+
+References: const-20-1-2
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 20(3): Right against self-incrimination
+
+Status: ai_draft; verify: true
+
+English: An accused person cannot be forced to be a witness against themself. You can stay silent about the case.
+
+Hindi: किसी आरोपी को अपने ही ख़िलाफ़ गवाही देने के लिए मजबूर नहीं किया जा सकता। आपको मामले के बारे में चुप रहने का अधिकार है।
+
+Who is covered: every_person
+
+Limits (English): This protects against compelled testimony; it does not prevent lawful collection of fingerprints, handwriting, or other samples. You must still give your name and address when asked (BNSS section 39). Whether phone passcodes or biometrics can be compelled is unsettled; verify.
+
+Limits (Hindi): यह सुरक्षा जबरन गवाही देने से बचाती है; कानून के अनुसार उँगलियों के निशान, लिखावट या अन्य नमूने लेने से नहीं रोकती। पूछे जाने पर नाम और पता बताना फिर भी आवश्यक है (BNSS धारा 39)। फ़ोन पासकोड या बायोमेट्रिक अनलॉक कराने के लिए बाध्य किया जा सकता है या नहीं, यह स्पष्ट नहीं है; पुष्टि करें।
+
+At a protest (English): If accused, you may calmly say that you wish to remain silent about the case until you have spoken with a lawyer. You must still provide your name and address when lawfully asked.
+
+At a protest (Hindi): आरोपी होने पर आप शांतिपूर्वक कह सकते हैं कि वकील से बात होने तक मामले के बारे में चुप रहना चाहते हैं। कानूनन पूछे जाने पर नाम और पता फिर भी दें।
+
+Memory phrase: Silent / मौन
+
+References: const-20-3, case-nandini, case-selvi, bnss-39, case-kathikalu
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 21: Protection of life and personal liberty
+
+Status: ai_draft; verify: true
+
+English: Life and personal liberty can be taken away only by a fair legal procedure. Courts have read dignity, protection from torture, privacy, fair trial, and legal aid into this right.
+
+Hindi: जीवन और व्यक्तिगत स्वतंत्रता केवल निष्पक्ष कानूनी प्रक्रिया से ही छीनी जा सकती है। अदालतों ने इस अधिकार में गरिमा, यातना से सुरक्षा, निजता, निष्पक्ष सुनवाई और कानूनी सहायता को शामिल माना है।
+
+Who is covered: every_person
+
+Limits (English): The procedure must be fair, just, and reasonable. Lawful arrest and detention that follow the law are not by themselves a violation.
+
+Limits (Hindi): प्रक्रिया निष्पक्ष, न्यायसंगत और उचित होनी चाहिए। कानून के अनुसार की गई वैध गिरफ़्तारी और हिरासत अपने-आप में उल्लंघन नहीं हैं।
+
+At a protest (English): This protection applies to every person. Stay peaceful, ask for medical help if needed, and tell a Magistrate or lawyer about ill-treatment.
+
+At a protest (Hindi): यह सुरक्षा हर व्यक्ति पर लागू होती है। शांत रहें, ज़रूरत पर चिकित्सकीय सहायता माँगें और दुर्व्यवहार के बारे में मजिस्ट्रेट या वकील को बताएं।
+
+Memory phrase: Safe / सुरक्षित
+
+References: const-21, case-maneka, case-dkbasu, case-puttaswamy
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 21A: Right to education
+
+Status: ai_draft; verify: true
+
+English: Children aged 6 to 14 have a right to free and compulsory education.
+
+Hindi: 6 से 14 वर्ष की आयु के बच्चों को निःशुल्क और अनिवार्य शिक्षा का अधिकार है।
+
+Who is covered: children
+
+Limits (English): This right concerns children aged 6 to 14.
+
+Limits (Hindi): यह अधिकार 6 से 14 वर्ष की आयु के बच्चों से संबंधित है।
+
+References: const-21a
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 22(1): Right to know grounds of arrest and consult a lawyer
+
+Status: ai_draft; verify: true
+
+English: When arrested, you must be told the grounds as soon as possible and can consult and be defended by a lawyer of your choice.
+
+Hindi: गिरफ़्तारी पर आपको जल्द से जल्द उसके आधार बताए जाने चाहिए और आप अपनी पसंद के वकील से सलाह लेकर अपना बचाव कर सकते हैं।
+
+Who is covered: every_person
+
+Limits (English): This does not apply in the same way to an enemy alien or a person held under preventive-detention law. The Supreme Court has required written grounds in some settings; verify current rulings.
+
+Limits (Hindi): यह अधिकार शत्रु-विदेशी या निवारक हिरासत कानून के तहत रखे व्यक्ति पर उसी तरह लागू नहीं होता। सर्वोच्च न्यायालय ने कुछ परिस्थितियों में लिखित आधार देना आवश्यक माना है; वर्तमान निर्णयों की पुष्टि करें।
+
+At a protest (English): If arrested, calmly ask what the grounds are and say that you want to consult a lawyer.
+
+At a protest (Hindi): गिरफ़्तारी होने पर शांतिपूर्वक आधार पूछें और बताएं कि आप वकील से सलाह लेना चाहते हैं।
+
+Memory phrase: Told + Lawyer / कारण + वकील
+
+References: const-22, bnss-47, case-pankajbansal, case-prabir
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 22(2): 24-hour rule
+
+Status: ai_draft; verify: true
+
+English: If arrested and kept in custody, you must be produced before the nearest Magistrate within 24 hours, excluding travel time. Without a Magistrate's order, you cannot be held longer.
+
+Hindi: गिरफ़्तार करके हिरासत में रखे जाने पर, यात्रा का समय छोड़कर, 24 घंटे के भीतर आपको निकटतम मजिस्ट्रेट के सामने पेश किया जाना चाहिए। मजिस्ट्रेट के आदेश के बिना आपको अधिक समय तक नहीं रखा जा सकता।
+
+Who is covered: every_person
+
+Limits (English): This does not apply in the same way under preventive-detention law.
+
+Limits (Hindi): निवारक हिरासत कानून के तहत यह उसी तरह लागू नहीं होता।
+
+At a protest (English): If you are arrested, note the time and ask to be produced before a Magistrate within the constitutional period.
+
+At a protest (Hindi): गिरफ़्तारी होने पर समय लिखें और संवैधानिक समय-सीमा के भीतर मजिस्ट्रेट के सामने पेश किए जाने का अनुरोध करें।
+
+Memory phrase: 24 hours / 24 घंटे
+
+References: const-22, bnss-58
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 22(3)–(7): Preventive detention safeguards
+
+Status: ai_draft; verify: true
+
+English: Different rules apply under preventive-detention laws. Grounds must be communicated as soon as possible and a representation can be made. Detention beyond three months generally needs Advisory Board approval; verify the exact safeguards.
+
+Hindi: निवारक हिरासत कानूनों के तहत अलग नियम लागू होते हैं। हिरासत के आधार जल्द से जल्द बताए जाने चाहिए और अभ्यावेदन दिया जा सकता है। तीन महीने से अधिक हिरासत के लिए सामान्यतः सलाहकार बोर्ड की स्वीकृति आवश्यक होती है; सटीक सुरक्षा उपायों की पुष्टि करें।
+
+Who is covered: every_person
+
+Limits (English): The 24-hour and lawyer-of-choice protections in Article 22(1) and (2) do not apply in the same way. Get legal help immediately.
+
+Limits (Hindi): अनुच्छेद 22(1) और (2) में दिए गए 24 घंटे और पसंद के वकील वाले अधिकार उसी तरह लागू नहीं होते। तुरंत कानूनी सहायता लें।
+
+References: const-22-3to7, nsa
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 23: No trafficking or forced labour
+
+Status: ai_draft; verify: true
+
+English: Trafficking in human beings and forced labour (begar) are forbidden.
+
+Hindi: मानव दुर्व्यापार और बेगार सहित बलात् श्रम निषिद्ध हैं।
+
+Who is covered: every_person
+
+Limits (English): The State may impose compulsory service for public purposes, without discrimination on the listed grounds.
+
+Limits (Hindi): राज्य सार्वजनिक उद्देश्यों के लिए अनिवार्य सेवा लागू कर सकता है, लेकिन बताए गए आधारों पर भेदभाव नहीं कर सकता।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 24: No child labour in hazardous work
+
+Status: ai_draft; verify: true
+
+English: Children under 14 cannot be employed in factories, mines, or other hazardous work.
+
+Hindi: 14 वर्ष से कम आयु के बच्चों को कारखानों, खानों या अन्य ख़तरनाक कामों में नियोजित नहीं किया जा सकता।
+
+Who is covered: children
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 25: Freedom of conscience and religion
+
+Status: ai_draft; verify: true
+
+English: Every person can freely follow, practise, and spread their religion.
+
+Hindi: हर व्यक्ति अपने धर्म को स्वतंत्र रूप से मान सकता है, उसका पालन कर सकता है और उसका प्रचार कर सकता है।
+
+Who is covered: every_person
+
+Limits (English): Subject to public order, morality, health, and other fundamental rights.
+
+Limits (Hindi): यह सार्वजनिक व्यवस्था, नैतिकता, स्वास्थ्य और अन्य मौलिक अधिकारों के अधीन है।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 26: Managing religious affairs
+
+Status: ai_draft; verify: true
+
+English: Religious denominations can manage their own religious affairs.
+
+Hindi: धार्मिक संप्रदाय अपने धार्मिक कार्यों का प्रबंधन कर सकते हैं।
+
+Who is covered: denominations
+
+Limits (English): Subject to public order, morality, and health.
+
+Limits (Hindi): यह सार्वजनिक व्यवस्था, नैतिकता और स्वास्थ्य के अधीन है।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 27: No tax for promoting a religion
+
+Status: ai_draft; verify: true
+
+English: No one can be compelled to pay taxes used to promote a particular religion.
+
+Hindi: किसी विशेष धर्म को बढ़ावा देने के लिए इस्तेमाल होने वाला कर देने को किसी को बाध्य नहीं किया जा सकता।
+
+Who is covered: every_person
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 28: Religious instruction in educational institutions
+
+Status: ai_draft; verify: true
+
+English: No one can be forced to take part in religious instruction or worship in certain educational institutions.
+
+Hindi: कुछ शिक्षा संस्थानों में किसी को धार्मिक शिक्षा या उपासना में भाग लेने के लिए बाध्य नहीं किया जा सकता।
+
+Who is covered: every_person
+
+Limits (English): Rules differ for institutions maintained, recognised, or administered under trust arrangements by the State.
+
+Limits (Hindi): राज्य द्वारा संचालित, मान्यता प्राप्त या न्यास व्यवस्था के तहत चलने वाले संस्थानों के नियम अलग-अलग हैं।
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 29: Protection of minority culture
+
+Status: ai_draft; verify: true
+
+English: A section of citizens with a distinct language, script, or culture can conserve it.
+
+Hindi: अलग भाषा, लिपि या संस्कृति वाले नागरिकों का कोई वर्ग उसे सुरक्षित रख सकता है।
+
+Who is covered: citizens
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 30: Minority educational institutions
+
+Status: ai_draft; verify: true
+
+English: Religious and linguistic minorities can establish and administer educational institutions of their choice.
+
+Hindi: धार्मिक और भाषायी अल्पसंख्यक अपनी पसंद की शिक्षा संस्थाएँ स्थापित और संचालित कर सकते हैं।
+
+Who is covered: minorities
+
+References: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 32: Right to constitutional remedies (Supreme Court)
+
+Status: ai_draft; verify: true
+
+English: You can go directly to the Supreme Court if a fundamental right is violated. It can issue writs such as habeas corpus.
+
+Hindi: मौलिक अधिकार का उल्लंघन होने पर आप सीधे सर्वोच्च न्यायालय जा सकते हैं। वह बंदी प्रत्यक्षीकरण (habeas corpus) जैसी रिट जारी कर सकता है।
+
+Who is covered: every_person
+
+Limits (English): In some cases, the Supreme Court may ask you to approach the High Court first.
+
+Limits (Hindi): कुछ मामलों में सर्वोच्च न्यायालय पहले उच्च न्यायालय जाने को कह सकता है।
+
+At a protest (English): A lawyer can advise whether a constitutional petition is appropriate for your situation.
+
+At a protest (Hindi): आपकी स्थिति में संवैधानिक याचिका उचित है या नहीं, यह वकील बता सकता है।
+
+Memory phrase: Supreme Court / सर्वोच्च न्यायालय
+
+References: const-32-226
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 226: High Courts' power to issue writs
+
+Status: ai_draft; verify: true
+
+English: A High Court can issue writs to enforce fundamental rights and other legal rights. For illegal detention, you, your family, or your lawyer can seek habeas corpus.
+
+Hindi: उच्च न्यायालय मौलिक और अन्य कानूनी अधिकार लागू कराने के लिए रिट जारी कर सकता है। अवैध हिरासत के लिए आप, आपका परिवार या वकील बंदी प्रत्यक्षीकरण याचिका माँग सकते हैं।
+
+Who is covered: every_person
+
+Limits (English): Article 226 gives High Courts a power; it is not itself a Part III fundamental right. A lawyer can advise on the appropriate court and remedy.
+
+Limits (Hindi): अनुच्छेद 226 उच्च न्यायालयों को शक्ति देता है; यह स्वयं भाग III का मौलिक अधिकार नहीं है। उचित अदालत और उपाय के बारे में वकील सलाह दे सकता है।
+
+At a protest (English): If someone may be unlawfully detained, promptly contact a lawyer or legal aid about the available remedy.
+
+At a protest (Hindi): किसी को गैरकानूनी रूप से हिरासत में रखे जाने की आशंका हो, तो उपलब्ध उपाय के लिए तुरंत वकील या कानूनी सहायता से संपर्क करें।
+
+Memory phrase: High Court / उच्च न्यायालय
+
+References: const-32-226
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 12, 13: Who the rights are against; inconsistent laws void
+
+Status: ai_draft; verify: true
+
+English: “State” includes the Government, Parliament, State legislatures, and local and other authorities, including police. A law that takes away or reduces a fundamental right is void to that extent.
+
+Hindi: “राज्य” में सरकार, संसद, राज्य विधानमंडल तथा स्थानीय और अन्य प्राधिकरण शामिल हैं, जिनमें पुलिस भी आती है। मौलिक अधिकार छीनने या घटाने वाला कानून उस सीमा तक शून्य है।
+
+Who is covered: every_person
+
+Limits (English): Fundamental rights are mainly claimed against the State.
+
+Limits (Hindi): मौलिक अधिकारों का दावा मुख्यतः राज्य के विरुद्ध किया जाता है।
+
+References: const-12-13
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 39A: Free legal aid (Directive Principle)
+
+Status: ai_draft; verify: true
+
+English: The State should ensure equal justice and free legal aid.
+
+Hindi: राज्य को समान न्याय और निःशुल्क कानूनी सहायता सुनिश्चित करनी चाहिए।
+
+Who is covered: every_person
+
+Limits (English): This is a Directive Principle, not a fundamental right. Courts link legal aid to Article 21, and the Legal Services Authorities Act provides free legal services to a person in custody (section 12(g)).
+
+Limits (Hindi): यह राज्य का नीति निदेशक तत्व है, मौलिक अधिकार नहीं। अदालतें कानूनी सहायता को अनुच्छेद 21 से जोड़ती हैं और विधिक सेवा प्राधिकरण अधिनियम हिरासत में व्यक्ति को निःशुल्क कानूनी सेवा देता है (धारा 12(g))।
+
+At a protest (English): If detained, ask the Magistrate or legal services authority for legal aid; the helpline is 15100.
+
+At a protest (Hindi): हिरासत में होने पर मजिस्ट्रेट या विधिक सेवा प्राधिकरण से कानूनी सहायता माँगें; हेल्पलाइन 15100 है।
+
+References: const-39a, lsa-12g
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### Article 51A(i): Fundamental duty: protect public property and avoid violence
+
+Status: ai_draft; verify: true
+
+English: Every citizen has a duty to protect public property and give up violence.
+
+Hindi: हर नागरिक का कर्तव्य है कि सार्वजनिक संपत्ति की रक्षा करे और हिंसा का त्याग करे।
+
+Who is covered: citizens
+
+Limits (English): Fundamental duties are not directly enforced by courts in the same way as rights; they describe responsibilities of citizens.
+
+Limits (Hindi): मौलिक कर्तव्य अधिकारों की तरह सीधे अदालतों द्वारा लागू नहीं किए जाते; वे नागरिकों की ज़िम्मेदारियाँ बताते हैं।
+
+At a protest (English): A peaceful protest that avoids violence and damage to public property reflects this duty.
+
+At a protest (Hindi): हिंसा और सार्वजनिक संपत्ति को नुकसान से बचने वाला शांतिपूर्ण प्रदर्शन इस कर्तव्य के अनुरूप है।
+
+References: const-51a
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+## Article finder
+
+- Told to stop chanting, speaking, or holding a placard / नारे लगाने, बोलने या पोस्टर रखने से रोका गया
+  - Guidance: You may express yourself, subject to lawful restrictions such as those concerning incitement to violence or defamation.
+  - Hindi: आप अपनी बात कह सकते हैं, लेकिन हिंसा के लिए उकसाने या मानहानि जैसे विषयों पर वैध प्रतिबंध लागू हो सकते हैं।
+  - Articles: art-19-1-a
+- Told the gathering is not allowed or ordered to disperse / सभा की अनुमति नहीं है कहा गया या तितर-बितर होने का आदेश मिला
+  - Guidance: Peaceful, unarmed assembly is protected, but the State can restrict it for public order. Ask to see an order in writing.
+  - Hindi: शांतिपूर्ण और निरायुध सभा संरक्षित है, लेकिन सार्वजनिक व्यवस्था के लिए राज्य प्रतिबंध लगा सकता है। आदेश लिखित रूप में दिखाने को कहें।
+  - Articles: art-19-1-b
+- Told you cannot form a group, union, or organisation / समूह, यूनियन या संगठन बनाने से रोका गया
+  - Guidance: Citizens may form associations and unions, subject to reasonable constitutional limits.
+  - Hindi: नागरिक उचित संवैधानिक सीमाओं के अधीन संघ और यूनियन बना सकते हैं।
+  - Articles: art-19-1-c
+- Stopped from going to or through an area / किसी क्षेत्र में जाने या वहाँ से गुज़रने से रोका गया
+  - Guidance: Citizens have freedom of movement, with limits allowed by law in the public interest.
+  - Hindi: नागरिकों को आने-जाने की स्वतंत्रता है; जनहित में कानून द्वारा सीमाएँ लगाई जा सकती हैं।
+  - Articles: art-19-1-d
+- Told to answer questions, confess, or sign / सवालों के जवाब देने, स्वीकारोक्ति करने या हस्ताक्षर करने को कहा गया
+  - Guidance: An accused person cannot be forced to give testimony against themself. Do not sign unread papers.
+  - Hindi: आरोपी को अपने विरुद्ध गवाही देने के लिए बाध्य नहीं किया जा सकता। बिना पढ़े काग़ज़ों पर हस्ताक्षर न करें।
+  - Articles: art-20-3
+- Taken away without being told why / कारण बताए बिना ले जाया गया
+  - Guidance: If arrested, you must be told the grounds as soon as possible.
+  - Hindi: गिरफ़्तारी होने पर जल्द से जल्द उसके आधार बताए जाने चाहिए।
+  - Articles: art-22-1
+- Not allowed to call or see a lawyer / वकील को फ़ोन करने या मिलने नहीं दिया गया
+  - Guidance: You may consult a lawyer of your choice; free legal aid is available under law.
+  - Hindi: आप अपनी पसंद के वकील से सलाह ले सकते हैं; कानून के तहत निःशुल्क कानूनी सहायता उपलब्ध है।
+  - Articles: art-22-1, art-39a
+- Kept for more than a day / एक दिन से अधिक समय तक रखा गया
+  - Guidance: A Magistrate must see an arrested person within 24 hours, excluding travel time.
+  - Hindi: गिरफ़्तार व्यक्ति को यात्रा का समय छोड़कर 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश किया जाना चाहिए।
+  - Articles: art-22-2
+- Beaten, humiliated, or ill-treated / मारपीट, अपमान या दुर्व्यवहार हुआ
+  - Guidance: Torture and cruel treatment are not allowed. Tell a doctor and the Magistrate.
+  - Hindi: यातना और क्रूर व्यवहार की अनुमति नहीं है। डॉक्टर और मजिस्ट्रेट को बताएं।
+  - Articles: art-21
+- Phone demanded or seized / फ़ोन माँगा गया या ज़ब्त किया गया
+  - Guidance: Privacy is protected. Whether you can be forced to unlock a phone is unsettled.
+  - Hindi: निजता संरक्षित है। फ़ोन अनलॉक करने के लिए बाध्य किया जा सकता है या नहीं, यह प्रश्न अभी स्पष्ट नहीं है।
+  - Articles: art-21, art-20-3
+- Treated differently because of religion, caste, sex, or place of birth / धर्म, जाति, लिंग या जन्म-स्थान के कारण अलग व्यवहार हुआ
+  - Guidance: The State must treat people equally and must not discriminate on the listed grounds.
+  - Hindi: राज्य को लोगों के साथ समान व्यवहार करना चाहिए और बताए गए आधारों पर भेदभाव नहीं करना चाहिए।
+  - Articles: art-14, art-15
+- Family cannot find you or you may be held illegally / परिवार को आपका पता नहीं या आपको गैरकानूनी रूप से रोका गया है
+  - Guidance: A lawyer or family member can ask a court to examine detention through habeas corpus.
+  - Hindi: वकील या परिवार का सदस्य बंदी प्रत्यक्षीकरण के ज़रिए अदालत से हिरासत की जाँच करने को कह सकता है।
+  - Articles: art-226, art-32
+- Held under a preventive-detention law / निवारक हिरासत कानून के तहत रखा गया
+  - Guidance: Different safeguards apply. Get a lawyer immediately.
+  - Hindi: अलग सुरक्षा उपाय लागू होते हैं। तुरंत वकील से संपर्क करें।
+  - Articles: art-22-3to7
+
+## Scripts
+
+### S01: Stopped or unsure if arrested
+
+English: Officer, am I being arrested or detained? Am I free to go?
+
+Hindi: अधिकारी महोदय, क्या मुझे गिरफ़्तार किया जा रहा है या हिरासत में लिया जा रहा है? क्या मैं जा सकता/सकती हूँ?
+
+Roman Hindi: Adhikari mahoday, kya mujhe giraftaar kiya ja raha hai ya hirasat mein liya ja raha hai? Kya main ja sakta/sakti hoon?
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S02: Arrest or detention
+
+English: Please tell me the reason for my arrest or detention, and under which section. Please give it to me in writing.
+
+Hindi: कृपया मुझे बताइए कि मुझे किस कारण और किस धारा के तहत गिरफ़्तार/हिरासत में लिया जा रहा है। कृपया यह मुझे लिखित में दीजिए।
+
+Roman Hindi: Kripya mujhe bataiye ki mujhe kis kaaran aur kis dhaara ke tahat giraftaar/hirasat mein liya ja raha hai. Kripya yeh mujhe likhit mein dijiye.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S03: Asked your identity
+
+English: My name is ___ and my address is ___. I will not answer other questions about the case without my lawyer.
+
+Hindi: मेरा नाम ___ है और मेरा पता ___ है। मैं अपने वकील के बिना मामले से जुड़े किसी और सवाल का जवाब नहीं दूँगा/दूँगी।
+
+Roman Hindi: Mera naam ___ hai aur mera pata ___ hai. Main apne vakeel ke bina maamle se jude kisi aur sawaal ka jawaab nahin doonga/doongi.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S04: Any custody
+
+English: I want to speak to my lawyer. If I do not have one, I request a free legal aid lawyer.
+
+Hindi: मैं अपने वकील से बात करना चाहता/चाहती हूँ। यदि मेरे पास वकील नहीं है, तो मुझे निःशुल्क कानूनी सहायता वकील उपलब्ध कराया जाए।
+
+Roman Hindi: Main apne vakeel se baat karna chahta/chahti hoon. Yadi mere paas vakeel nahin hai, to mujhe nihshulk kaanooni sahayata vakeel uplabdh karaya jaaye.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S05: After arrest
+
+English: Please inform my family/friend ___ (phone ___) that I have been arrested and where I am being taken.
+
+Hindi: कृपया मेरे परिवार/मित्र ___ (फ़ोन ___) को सूचित कीजिए कि मुझे गिरफ़्तार किया गया है और मुझे कहाँ ले जाया जा रहा है।
+
+Roman Hindi: Kripya mere parivaar/mitra ___ (phone ___) ko soochit kijiye ki mujhe giraftaar kiya gaya hai aur mujhe kahaan le jaya ja raha hai.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S06: At arrest
+
+English: Please show your name and ID, and prepare the arrest memo. I will read it before I sign.
+
+Hindi: कृपया अपना नाम और पहचान दिखाइए तथा गिरफ़्तारी मेमो तैयार कीजिए। मैं हस्ताक्षर करने से पहले उसे पढ़ूँगा/पढ़ूँगी।
+
+Roman Hindi: Kripya apna naam aur pehchaan dikhaiye tatha giraftaari memo taiyaar kijiye. Main hastakshar karne se pehle use padhoonga/padhoongi.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S07: Interrogation
+
+English: I am exercising my right to remain silent. I will speak only in the presence of my lawyer.
+
+Hindi: मैं चुप रहने के अपने अधिकार का प्रयोग कर रहा/रही हूँ। मैं केवल अपने वकील की उपस्थिति में बात करूँगा/करूँगी।
+
+Roman Hindi: Main chup rehne ke apne adhikaar ka prayog kar raha/rahi hoon. Main keval apne vakeel ki upasthiti mein baat karoonga/karoongi.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S08: Asked to sign
+
+English: I will not sign any paper I have not read. I will not sign a blank paper.
+
+Hindi: मैं कोई भी काग़ज़ बिना पढ़े हस्ताक्षर नहीं करूँगा/करूँगी। मैं खाली काग़ज़ पर हस्ताक्षर नहीं करूँगा/करूँगी।
+
+Roman Hindi: Main koi bhi kaagaz bina padhe hastakshar nahin karoonga/karoongi. Main khaali kaagaz par hastakshar nahin karoonga/karoongi.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S09: Phone demanded or seized
+
+English: I do not consent to the search of my phone or to giving my passcode. If you are seizing it, please give me a written seizure memo.
+
+Hindi: मैं अपने फ़ोन की तलाशी या पासकोड देने के लिए सहमति नहीं देता/देती। यदि आप इसे जब्त कर रहे हैं, तो कृपया मुझे लिखित जब्ती-मेमो दीजिए।
+
+Roman Hindi: Main apne phone ki talaashi ya passcode dene ke liye sahmati nahin deta/deti. Yadi aap ise jabt kar rahe hain, to kripya mujhe likhit jabti-memo dijiye.
+
+Warning (English): Do not physically resist; the legal position on unlocking phones is unsettled.
+
+Warning (Hindi): शारीरिक रूप से विरोध न करें; फ़ोन अनलॉक कराने की कानूनी स्थिति स्पष्ट नहीं है।
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S10: Injured or unwell
+
+English: I am injured / unwell. I request a medical examination by a doctor, and I want my injuries recorded.
+
+Hindi: मुझे चोट लगी है / मेरी तबीयत ठीक नहीं है। मैं डॉक्टर से जाँच करवाना चाहता/चाहती हूँ और चाहता/चाहती हूँ कि मेरी चोटें दर्ज की जाएँ।
+
+Roman Hindi: Mujhe chot lagi hai / meri tabiyat theek nahin hai. Main doctor se jaanch karwana chahta/chahti hoon aur chahta/chahti hoon ki meri choten darj ki jaayen.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S11: Women
+
+English: I am a woman. Please call a woman police officer. I must be searched only by a woman officer. Except in exceptional circumstances, with a Magistrate's written permission, a woman cannot be arrested between sunset and sunrise.
+
+Hindi: मैं महिला हूँ। कृपया महिला पुलिस अधिकारी को बुलाइए। मेरी तलाशी केवल महिला अधिकारी द्वारा ही होनी चाहिए। असाधारण परिस्थितियों में मजिस्ट्रेट की लिखित अनुमति के बिना सूर्यास्त के बाद और सूर्योदय से पहले किसी महिला को गिरफ़्तार नहीं किया जा सकता।
+
+Roman Hindi: Main mahila hoon. Kripya mahila police adhikari ko bulaiye. Meri talaashi keval mahila adhikari dwara hi honi chahiye. Asaadhaaran paristhitiyon mein magistrate ki likhit anumati ke bina sooryaast ke baad aur sooryoday se pehle kisi mahila ko giraftaar nahin kiya ja sakta.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S12: Before a Magistrate
+
+English: Your Honour, I wish to tell the court that I was [beaten / threatened / not given food / not allowed to call my family]. I request a medical examination, a legal aid lawyer, and I apply for bail.
+
+Hindi: माननीय महोदय, मैं बताना चाहता/चाहती हूँ कि मुझे [मारा-पीटा गया / धमकाया गया / भोजन नहीं दिया गया / परिवार को फ़ोन नहीं करने दिया गया]। मैं मेडिकल जाँच, कानूनी सहायता वकील और ज़मानत का अनुरोध करता/करती हूँ।
+
+Roman Hindi: Maanneeya mahoday, main batana chahta/chahti hoon ki mujhe [maara-peeta gaya / dhamkaya gaya / bhojan nahin diya gaya / parivaar ko phone karne nahin diya gaya]. Main medical jaanch, kaanooni sahayata vakeel aur zamanat ka anurodh karta/karti hoon.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S13: Under 18
+
+English: I am under 18 years old. Please inform my parents and produce me before the Juvenile Justice Board.
+
+Hindi: मेरी उम्र 18 वर्ष से कम है। कृपया मेरे माता-पिता को सूचित कीजिए और मुझे किशोर न्याय बोर्ड के सामने पेश कीजिए।
+
+Roman Hindi: Meri umr 18 varsh se kam hai. Kripya mere maata-pita ko soochit kijiye aur mujhe kishor nyay board ke saamne pesh kijiye.
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S14: Preventive detention
+
+English: Under which provision am I being held? Preventive detention generally cannot exceed 24 hours. Please release me or produce me before a Magistrate.
+
+Hindi: मुझे किस प्रावधान के तहत रखा गया है? निवारक हिरासत सामान्यतः 24 घंटे से अधिक नहीं हो सकती। कृपया मुझे छोड़िए या मजिस्ट्रेट के सामने पेश कीजिए।
+
+Roman Hindi: Mujhe kis praavdhaan ke tahat rakha gaya hai? Nivaarak hirasat saamaanyatah 24 ghante se adhik nahin ho sakti. Kripya mujhe chhodiye ya magistrate ke saamne pesh kijiye.
+
+Warning (English): Preventive detention under special laws (such as the NSA) follows different rules — see M12.
+
+Warning (Hindi): विशेष कानूनों (जैसे NSA) के तहत निवारक हिरासत के नियम अलग हैं — M12 देखें।
+
+Articles: none
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S15: After arrest
+
+English: Officer, under Article 22(1) of the Constitution I have the right to be told the reason for my arrest and to consult a lawyer of my choice. May I know the reason, please?
+
+Hindi: अधिकारी महोदय, संविधान के अनुच्छेद 22(1) के अनुसार मुझे अपनी गिरफ़्तारी का कारण जानने और अपनी पसंद के वकील से सलाह लेने का अधिकार है। कृपया मुझे कारण बताइए।
+
+Roman Hindi: Adhikari mahoday, samvidhaan ke anuchhed 22(1) ke anusaar mujhe apni giraftaari ka kaaran jaanne aur apni pasand ke vakeel se salaah lene ka adhikaar hai. Kripya mujhe kaaran bataiye.
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Articles: art-22-1
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S16: During detention or in custody
+
+English: Under Article 22(2), I must be produced before the nearest Magistrate within 24 hours of my arrest, not counting travel time. Please take me before a Magistrate.
+
+Hindi: अनुच्छेद 22(2) के अनुसार गिरफ़्तारी के 24 घंटे के भीतर (यात्रा का समय छोड़कर) मुझे निकटतम मजिस्ट्रेट के सामने पेश किया जाना चाहिए। कृपया मुझे मजिस्ट्रेट के सामने ले चलिए।
+
+Roman Hindi: Anuchhed 22(2) ke anusaar giraftaari ke 24 ghante ke bheetar (yaatra ka samay chhodkar) mujhe nikatatam magistrate ke saamne pesh kiya jaana chahiye. Kripya mujhe magistrate ke saamne le chaliye.
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Articles: art-22-2
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S17: Questioned after being accused
+
+English: Under Article 20(3), no accused person can be forced to be a witness against himself. I choose to remain silent until I speak to my lawyer.
+
+Hindi: अनुच्छेद 20(3) के अनुसार किसी भी आरोपी को अपने विरुद्ध गवाह बनने के लिए बाध्य नहीं किया जा सकता। मैं अपने वकील से बात होने तक चुप रहना चाहता/चाहती हूँ।
+
+Roman Hindi: Anuchhed 20(3) ke anusaar kisi bhi aaropi ko apne viruddh gavaah banne ke liye baadhya nahin kiya ja sakta. Main apne vakeel se baat hone tak chup rehna chahta/chahti hoon.
+
+Warning (English): You must still give your name and address when asked.
+
+Warning (Hindi): पूछे जाने पर आपको अपना नाम और पता फिर भी देना होगा।
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Articles: art-20-3
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S18: During arrest or custody
+
+English: Article 21 protects my life and personal liberty. I am cooperating and not resisting. Please follow the procedure laid down by law and do not use force.
+
+Hindi: अनुच्छेद 21 मेरे जीवन और व्यक्तिगत स्वतंत्रता की रक्षा करता है। मैं सहयोग कर रहा/रही हूँ और विरोध नहीं कर रहा/रही। कृपया कानून द्वारा तय प्रक्रिया का पालन कीजिए और बल प्रयोग न कीजिए।
+
+Roman Hindi: Anuchhed 21 mere jeevan aur vyaktigat swatantrata ki raksha karta hai. Main sahyog kar raha/rahi hoon aur virodh nahin kar raha/rahi. Kripya kaanoon dwara tay prakriya ka paalan kijiye aur bal prayog na kijiye.
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Articles: art-21
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S19: During a peaceful protest
+
+English: I am protesting peacefully and without arms. Article 19(1)(a) and 19(1)(b) protect free speech and peaceful assembly. If there is an order restricting this gathering, please show it to me in writing.
+
+Hindi: मैं शांतिपूर्ण और निहत्था प्रदर्शन कर रहा/रही हूँ। अनुच्छेद 19(1)(क) और 19(1)(ख) बोलने की स्वतंत्रता और शांतिपूर्ण सभा का अधिकार देते हैं। यदि इस सभा पर कोई प्रतिबंध-आदेश है, तो कृपया मुझे लिखित में दिखाइए।
+
+Roman Hindi: Main shaantipoorn aur nihattha pradarshan kar raha/rahi hoon. Anuchhed 19(1)(ka) aur 19(1)(kha) bolne ki swatantrata aur shaantipoorn sabha ka adhikaar dete hain. Yadi is sabha par koi pratibandh-aadesh hai, to kripya mujhe likhit mein dikhaiye.
+
+Warning (English): If a lawful order to disperse is given, leave. Article 19 freedoms have limits (19(2), 19(3)).
+
+Warning (Hindi): यदि तितर-बितर होने का वैध आदेश दिया जाए, तो वहाँ से चले जाएँ। अनुच्छेद 19 की स्वतंत्रताओं की सीमाएँ हैं (19(2), 19(3))।
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Articles: art-19-1-a, art-19-1-b
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
+### S20: 20-second version
+
+English: I will cooperate peacefully. Under Article 22(1), please tell me the reason for my arrest. Under Article 20(3), I will stay silent. Under Article 22(2), I must be produced before a Magistrate within 24 hours. I want my lawyer.
+
+Hindi: मैं शांतिपूर्वक सहयोग करूँगा/करूँगी। अनुच्छेद 22(1) के अनुसार कृपया मुझे गिरफ़्तारी का कारण बताइए। अनुच्छेद 20(3) के अनुसार मैं चुप रहूँगा/रहूँगी। अनुच्छेद 22(2) के अनुसार 24 घंटे के भीतर मुझे मजिस्ट्रेट के सामने पेश किया जाना चाहिए। मुझे अपना वकील चाहिए।
+
+Roman Hindi: Main shaantipoorvak sahyog karoonga/karoongi. Anuchhed 22(1) ke anusaar kripya mujhe giraftaari ka kaaran bataiye. Anuchhed 20(3) ke anusaar main chup rahoonga/rahoongi. Anuchhed 22(2) ke anusaar 24 ghante ke bheetar mujhe magistrate ke saamne pesh kiya jaana chahiye. Mujhe apna vakeel chahiye.
+
+Warning (English): Say this calmly. Do not repeat it in an angry or mocking way.
+
+Warning (Hindi): इसे शांतिपूर्वक कहें। गुस्से या मज़ाक उड़ाने वाले ढंग से इसे न दोहराएँ।
+
+Safety (English): Say it calmly and politely. Quoting an Article does not give you power to stop the police. Do not resist physically.
+
+Safety (Hindi): शांति और विनम्रता से कहें। अनुच्छेद का नाम लेने से पुलिस को रोकने की शक्ति नहीं मिलती। शारीरिक रूप से विरोध न करें।
+
+Say it well — Do: Use a request: “May I know the reason, please?” / अनुरोध करें: “कृपया मुझे कारण बताइए।”
+Say it well — Don't: Don’t threaten: “I will sue you.” / धमकी न दें: “मैं आप पर मुक़दमा करूँगा/करूँगी।”
+Say it well — Do: One Article at a time. / एक बार में एक अनुच्छेद कहें।
+Say it well — Don't: Don’t read a long list of Articles at once. / एक साथ अनुच्छेदों की लंबी सूची न पढ़ें।
+Say it well — Do: Say the plain meaning too: “Article 22(1), the right to know why I am arrested.” / सरल अर्थ भी कहें: “अनुच्छेद 22(1), यह जानने का अधिकार कि मुझे क्यों गिरफ़्तार किया गया है।”
+Say it well — Don't: Don’t claim more than the Article says (for example, “Article 19 means you cannot stop me”). / अनुच्छेद से अधिक दावा न करें (जैसे “अनुच्छेद 19 का मतलब है कि आप मुझे रोक नहीं सकते”)।
+Say it well — Do: Note the officer’s name, time, and what was said. / अधिकारी का नाम, समय और कही गई बात लिख लें।
+Say it well — Don't: Don’t argue if the officer does not respond. Stay calm, keep notes, and tell your lawyer. / अधिकारी जवाब न दें तो बहस न करें। शांत रहें, नोट लिखें और अपने वकील को बताएँ।
+Articles: art-22-1, art-20-3, art-22-2
+
+- [ ] Correct  - [ ] Needs change  - [ ] Remove
+
+Reviewer comments:
+
 ## References requiring verification
 
 - const-20-3: No compelled self-incrimination / अपने विरुद्ध गवाही देने के लिए बाध्य न किया जाना — current: Constitution Art. 20(3); old: —
@@ -689,6 +1862,15 @@ Reviewer comments:
 - case-pankajbansal: Pankaj Bansal v. Union of India / पंकज बंसल बनाम भारत संघ (Pankaj Bansal v. Union of India) — current: 2023; old: —
 - case-prabir: Prabir Purkayastha v. State (NCT of Delhi) / प्रबीर पुरकायस्थ बनाम राज्य (दिल्ली राष्ट्रीय राजधानी क्षेत्र) (Prabir Purkayastha v. State (NCT of Delhi)) — current: 2024; old: —
 - case-antil: Satender Kumar Antil v. CBI / सतेंद्र कुमार अंतिल बनाम CBI (Satender Kumar Antil v. CBI) — current: (2022) 10 SCC 51; old: —
+- const-12-13: Meaning of State; laws against fundamental rights are void / राज्य का अर्थ; मौलिक अधिकारों के विरुद्ध कानून शून्य — current: Constitution Arts. 12, 13; old: —
+- const-14: Equality before law / विधि के समक्ष समता — current: Constitution Art. 14; old: —
+- const-15: No discrimination / भेदभाव का निषेध — current: Constitution Art. 15; old: —
+- const-19-1-c: Freedom to form associations and unions / संघ और यूनियन बनाने की स्वतंत्रता — current: Constitution Art. 19(1)(c), 19(4); old: —
+- const-19-1-d: Freedom of movement / आवागमन की स्वतंत्रता — current: Constitution Art. 19(1)(d), 19(5); old: —
+- const-19-2to5: Limits on Article 19 freedoms / अनुच्छेद 19 की स्वतंत्रताओं की सीमाएँ — current: Constitution Art. 19(2)–(5); old: —
+- const-20-1-2: No retrospective punishment; no double jeopardy / पूर्वव्यापी दंड और दोहरे दंड का निषेध — current: Constitution Art. 20(1), 20(2); old: —
+- const-21a: Right to education / शिक्षा का अधिकार — current: Constitution Art. 21A; old: —
+- const-51a: Fundamental duty: protect public property and avoid violence / मौलिक कर्तव्य: सार्वजनिक संपत्ति की रक्षा और हिंसा से बचना — current: Constitution Art. 51A(i); old: —
 
 ## Case citations requiring verification
 
@@ -787,3 +1969,28 @@ Reviewer comments:
   - Hindi: ज़मानत संबंधी दिशानिर्देश; गिरफ़्तारी और रिमांड यांत्रिक ढंग से नहीं होने चाहिए; ज़मानत सामान्य नियम है।
   - Why it matters: Provides context for bail and arrest decisions.
   - Hindi: ज़मानत और गिरफ़्तारी संबंधी निर्णयों की पृष्ठभूमि देता है।
+- [ ] Maneka Gandhi v. Union of India / मेनका गांधी बनाम भारत संघ — (1978) 1 SCC 248
+  - Holding: The procedure under Article 21 must be fair, just, and reasonable; Articles 14, 19, and 21 work together.
+  - Hindi: अनुच्छेद 21 के तहत प्रक्रिया निष्पक्ष, न्यायसंगत और उचित होनी चाहिए; अनुच्छेद 14, 19 और 21 एक साथ काम करते हैं।
+  - Why it matters: Explains fairness in procedures affecting life and liberty.
+  - Hindi: जीवन और स्वतंत्रता को प्रभावित करने वाली प्रक्रियाओं में निष्पक्षता स्पष्ट करता है।
+- [ ] Shreya Singhal v. Union of India / श्रेया सिंघल बनाम भारत संघ — (2015) 5 SCC 1
+  - Holding: Discussion and advocacy are protected under Article 19(1)(a); incitement can be restricted.
+  - Hindi: अनुच्छेद 19(1)(a) के तहत चर्चा और समर्थन संरक्षित हैं; उकसाने पर प्रतिबंध लगाया जा सकता है।
+  - Why it matters: Distinguishes protected expression from incitement.
+  - Hindi: संरक्षित अभिव्यक्ति और उकसाने के बीच अंतर स्पष्ट करता है।
+- [ ] Hussainara Khatoon v. State of Bihar / हुसैनारा खातून बनाम बिहार राज्य — (1980) 1 SCC 81
+  - Holding: Speedy trial and free legal aid are part of Article 21.
+  - Hindi: शीघ्र सुनवाई और निःशुल्क कानूनी सहायता अनुच्छेद 21 का हिस्सा हैं।
+  - Why it matters: Connects legal aid and timely trial with life and liberty.
+  - Hindi: कानूनी सहायता और समयबद्ध सुनवाई को जीवन और स्वतंत्रता से जोड़ता है।
+- [ ] State of Bombay v. Kathi Kalu Oghad / बॉम्बे राज्य बनाम काठी कालू ओघड़ — AIR 1961 SC 1808
+  - Holding: Article 20(3) covers compelled testimony, not giving fingerprints or handwriting samples.
+  - Hindi: अनुच्छेद 20(3) जबरन गवाही देने से सुरक्षा देता है, उँगलियों के निशान या लिखावट के नमूने देने से नहीं।
+  - Why it matters: Clarifies the scope of protection against self-incrimination.
+  - Hindi: आत्म-अभिशंसन से सुरक्षा का दायरा स्पष्ट करता है।
+- [ ] Communist Party of India (M) v. Bharat Kumar / भारतीय कम्युनिस्ट पार्टी (मार्क्सवादी) बनाम भारत कुमार — (1998) 1 SCC 201
+  - Holding: There is no fundamental right to enforce a bandh that stops others' normal life.
+  - Hindi: दूसरों के सामान्य जीवन को रोकने वाले बंद को लागू कराने का कोई मौलिक अधिकार नहीं है।
+  - Why it matters: Explains a limit on protest affecting other people.
+  - Hindi: दूसरों को प्रभावित करने वाले प्रदर्शन की एक सीमा स्पष्ट करता है।

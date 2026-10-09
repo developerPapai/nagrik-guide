@@ -70,5 +70,14 @@
   {"id":"case-sheelabarse","kind":"case","label":{"en":"Sheela Barse v. State of Maharashtra","hi":"शीला बारसे बनाम महाराष्ट्र राज्य (Sheela Barse v. State of Maharashtra)"},"current":"(1983) 2 SCC 96","verify":true},
   {"id":"case-pankajbansal","kind":"case","label":{"en":"Pankaj Bansal v. Union of India","hi":"पंकज बंसल बनाम भारत संघ (Pankaj Bansal v. Union of India)"},"current":"2023","verify":true},
   {"id":"case-prabir","kind":"case","label":{"en":"Prabir Purkayastha v. State (NCT of Delhi)","hi":"प्रबीर पुरकायस्थ बनाम राज्य (दिल्ली राष्ट्रीय राजधानी क्षेत्र) (Prabir Purkayastha v. State (NCT of Delhi))"},"current":"2024","verify":true},
-  {"id":"case-antil","kind":"case","label":{"en":"Satender Kumar Antil v. CBI","hi":"सतेंद्र कुमार अंतिल बनाम CBI (Satender Kumar Antil v. CBI)"},"current":"(2022) 10 SCC 51","verify":true}
+  {"id":"case-antil","kind":"case","label":{"en":"Satender Kumar Antil v. CBI","hi":"सतेंद्र कुमार अंतिल बनाम CBI (Satender Kumar Antil v. CBI)"},"current":"(2022) 10 SCC 51","verify":true},
+  {"id":"const-12-13","kind":"constitution","label":{"en":"Meaning of State; laws against fundamental rights are void","hi":"राज्य का अर्थ; मौलिक अधिकारों के विरुद्ध कानून शून्य"},"current":"Constitution Arts. 12, 13","verify":true},
+  {"id":"const-14","kind":"constitution","label":{"en":"Equality before law","hi":"विधि के समक्ष समता"},"current":"Constitution Art. 14","verify":true},
+  {"id":"const-15","kind":"constitution","label":{"en":"No discrimination","hi":"भेदभाव का निषेध"},"current":"Constitution Art. 15","verify":true},
+  {"id":"const-19-1-c","kind":"constitution","label":{"en":"Freedom to form associations and unions","hi":"संघ और यूनियन बनाने की स्वतंत्रता"},"current":"Constitution Art. 19(1)(c), 19(4)","verify":true},
+  {"id":"const-19-1-d","kind":"constitution","label":{"en":"Freedom of movement","hi":"आवागमन की स्वतंत्रता"},"current":"Constitution Art. 19(1)(d), 19(5)","verify":true},
+  {"id":"const-19-2to5","kind":"constitution","label":{"en":"Limits on Article 19 freedoms","hi":"अनुच्छेद 19 की स्वतंत्रताओं की सीमाएँ"},"current":"Constitution Art. 19(2)–(5)","verify":true},
+  {"id":"const-20-1-2","kind":"constitution","label":{"en":"No retrospective punishment; no double jeopardy","hi":"पूर्वव्यापी दंड और दोहरे दंड का निषेध"},"current":"Constitution Art. 20(1), 20(2)","verify":true},
+  {"id":"const-21a","kind":"constitution","label":{"en":"Right to education","hi":"शिक्षा का अधिकार"},"current":"Constitution Art. 21A","verify":true},
+  {"id":"const-51a","kind":"constitution","label":{"en":"Fundamental duty: protect public property and avoid violence","hi":"मौलिक कर्तव्य: सार्वजनिक संपत्ति की रक्षा और हिंसा से बचना"},"current":"Constitution Art. 51A(i)","verify":true}
 ]

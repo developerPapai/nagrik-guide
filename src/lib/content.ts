@@ -1,4 +1,4 @@
-import type { AboutContent, CaseCard, ChecklistItem, Contact, GlossaryTerm, L10n, LawRef, Module, Script } from '../types'
+import type { AboutContent, ArticleFinderRow, CaseCard, ChecklistItem, Contact, FRArticle, GlossaryTerm, L10n, LawRef, Module, Script } from '../types'
 
 const moduleFiles = import.meta.glob('../content/modules/*.json', {
   eager: true,
@@ -49,4 +49,12 @@ export function getDisclaimer(): L10n {
 
 export function getAboutContent(): AboutContent {
   return loadContent<AboutContent>('about.json')
+}
+
+export function getFundamentalRights(): FRArticle[] {
+  return loadContent<FRArticle[]>('fundamental-rights.json')
+}
+
+export function getArticleFinder(): ArticleFinderRow[] {
+  return loadContent<ArticleFinderRow[]>('articleFinder.json')
 }
