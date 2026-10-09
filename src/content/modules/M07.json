@@ -1,0 +1,26 @@
+{
+  "id": "M07",
+  "group": "protest",
+  "icon": "✳",
+  "title": {"en": "Protest rights and limits", "hi": "प्रदर्शन का अधिकार और उसकी सीमाएँ"},
+  "summary": {"en": "Peaceful assembly is a fundamental right, but it is not unlimited.", "hi": "शांतिपूर्ण सभा करना मौलिक अधिकार है, लेकिन यह असीमित नहीं है।"},
+  "steps": [
+    {"type":"know","text":{"en":"The Constitution protects free speech and the right to assemble peacefully and without arms. The State can impose reasonable restrictions, for example for public order.","hi":"संविधान अभिव्यक्ति की स्वतंत्रता और बिना हथियार शांतिपूर्वक सभा करने के अधिकार की रक्षा करता है। राज्य सार्वजनिक व्यवस्था जैसे कारणों से उचित प्रतिबंध लगा सकता है।"},"refs":["const-19"]},
+    {"type":"know","text":{"en":"Courts have described protest as part of democracy and said police cannot act arbitrarily. Protests also cannot block public roads or places indefinitely. Expect balancing.","hi":"अदालतों ने प्रदर्शन को लोकतंत्र का हिस्सा माना है और कहा है कि पुलिस मनमाने ढंग से कार्रवाई नहीं कर सकती। प्रदर्शन के कारण सार्वजनिक सड़कें या स्थान अनिश्चितकाल तक अवरुद्ध भी नहीं किए जा सकते। अधिकारों के बीच संतुलन की अपेक्षा रखें।"},"refs":["case-ramlila","case-mkss","case-amitsahni"]},
+    {"type":"know","text":{"en":"Prohibitory orders under BNSS s.163 can restrict gatherings. Orders must be reasoned and cannot be used to suppress legitimate peaceful expression. Violating a valid order is an offence.","hi":"BNSS की धारा 163 के तहत निषेधाज्ञा सभाओं पर रोक लगा सकती है। आदेश कारणों सहित होना चाहिए और वैध शांतिपूर्ण अभिव्यक्ति दबाने के लिए इस्तेमाल नहीं किया जा सकता। वैध आदेश का उल्लंघन अपराध है।"},"refs":["bnss-163","case-anuradha","case-madhulimaye","bns-223"]},
+    {"type":"know","text":{"en":"An unlawful assembly is five or more people with a common unlawful object. If violence occurs, every member can be held liable for acts done in pursuit of that common object.","hi":"गैरकानूनी सभा में पाँच या अधिक लोग किसी साझा गैरकानूनी उद्देश्य से एकत्र होते हैं। हिंसा होने पर उस साझा उद्देश्य को आगे बढ़ाने के लिए किए गए कृत्यों के लिए हर सदस्य को उत्तरदायी ठहराया जा सकता है।"},"refs":["bns-189","bns-190","bns-191"]},
+    {"type":"know","text":{"en":"Police may order an assembly to disperse. Force must be the minimum necessary and preceded by a warning.","hi":"पुलिस सभा को तितर-बितर होने का आदेश दे सकती है। बल का प्रयोग चेतावनी के बाद और केवल आवश्यक न्यूनतम सीमा तक होना चाहिए।"},"refs":["bnss-148-150"]},
+    {"type":"know","text":{"en":"Damage to public property is a separate offence.","hi":"सार्वजनिक संपत्ति को नुकसान पहुँचाना अलग अपराध है।"},"refs":["pdpp"]},
+    {"type":"do","text":{"en":"Stay unarmed. Keep to the peaceful core of the gathering. Leave when a lawful dispersal order is given or violence starts.","hi":"निहत्थे रहें और सभा को शांतिपूर्ण बनाए रखें। तितर-बितर होने का वैध आदेश मिलने या हिंसा शुरू होने पर वहाँ से चले जाएँ।"}},
+    {"type":"do","text":{"en":"If unsure whether an order applies, ask to see the prohibitory order in writing.","hi":"यदि संदेह हो कि कोई आदेश लागू है या नहीं, तो निषेधाज्ञा लिखित रूप में दिखाने को कहें।"}},
+    {"type":"dont","text":{"en":"Do not carry weapons or sticks, damage property, stay after a lawful dispersal order, or share unverified rumours.","hi":"हथियार या डंडे न ले जाएँ, संपत्ति को नुकसान न पहुँचाएँ, तितर-बितर होने के वैध आदेश के बाद वहाँ न रुकें और अपुष्ट अफ़वाहें न फैलाएँ।"}},
+    {"type":"know","text":{"en":"Serious charges exist in the BNS and special laws. If one is mentioned, call a lawyer at once.","hi":"BNS और विशेष कानूनों में गंभीर आरोप हैं। किसी ऐसे आरोप का उल्लेख हो तो तुरंत वकील को फ़ोन करें।"},"refs":["bns-152","uapa-43d"]}
+  ],
+  "grayAreas": [{"en":"Whether a particular order or restriction is valid is often decided by courts after the event.","hi":"किसी विशेष आदेश या प्रतिबंध की वैधता का निर्णय अक्सर घटना के बाद अदालतें करती हैं।"}],
+  "related": ["M08","M09"],
+  "tags": ["pradarshan","virodh","dharna","144","163","assembly","ghera","julus","rally"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

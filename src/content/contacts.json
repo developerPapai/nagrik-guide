@@ -1,0 +1,7 @@
+[
+  {"id":"emergency-112","kind":"emergency","label":{"en":"Emergency (police / fire / ambulance)","hi":"आपातकालीन सहायता (पुलिस / अग्निशमन / एम्बुलेंस)"},"number":"112","note":{"en":"National single emergency number.","hi":"देशभर के लिए एकीकृत आपातकालीन नंबर।"},"verifiedOn":null},
+  {"id":"nalsa-15100","kind":"legal_aid","label":{"en":"NALSA free legal aid helpline","hi":"NALSA निःशुल्क कानूनी सहायता हेल्पलाइन"},"number":"15100","note":{"en":"Free legal services; you can also visit the District Legal Services Authority.","hi":"निःशुल्क कानूनी सेवाएँ उपलब्ध हैं; आप ज़िला विधिक सेवा प्राधिकरण भी जा सकते/सकती हैं।"},"verifiedOn":null},
+  {"id":"ambulance-108","kind":"emergency","label":{"en":"Ambulance","hi":"एम्बुलेंस"},"number":"108","note":{"en":"Varies by state; 102 may also be available. Verify locally.","hi":"यह सुविधा राज्य के अनुसार अलग हो सकती है; 102 भी उपलब्ध हो सकता है। स्थानीय रूप से पुष्टि करें।"},"verifiedOn":null},
+  {"id":"women-1091","kind":"helpline","label":{"en":"Women helpline (police)","hi":"महिला हेल्पलाइन (पुलिस)"},"number":"1091","note":{"en":"State-level number; 181 is used in many states. Verify locally.","hi":"यह राज्य-स्तरीय नंबर है; कई राज्यों में 181 भी उपयोग होता है। स्थानीय रूप से पुष्टि करें।"},"verifiedOn":null},
+  {"id":"childline-1098","kind":"helpline","label":{"en":"Childline","hi":"चाइल्डलाइन"},"number":"1098","note":{"en":"For children in distress.","hi":"संकट में फँसे बच्चों के लिए।"},"verifiedOn":null}
+]

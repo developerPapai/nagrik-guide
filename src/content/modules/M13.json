@@ -1,0 +1,20 @@
+{
+  "id": "M13",
+  "group": "reference",
+  "icon": "◉",
+  "title": {"en": "“Emergency” and your rights", "hi": "“आपातस्थिति” और आपके अधिकार"},
+  "summary": {"en": "A local law-and-order situation and a constitutional National Emergency are different.", "hi": "स्थानीय कानून-व्यवस्था की स्थिति और संविधान के तहत घोषित राष्ट्रीय आपातकाल अलग-अलग हैं।"},
+  "steps": [
+    {"type":"know","text":{"en":"Under the Constitution as amended in 1978, Article 19 is suspended automatically only during a National Emergency declared on grounds of war or external aggression, not merely internal disturbance.","hi":"1978 में संशोधित संविधान के तहत, अनुच्छेद 19 केवल युद्ध या बाहरी आक्रमण के आधार पर घोषित राष्ट्रीय आपातकाल में स्वतः निलंबित होता है—केवल आंतरिक अशांति के आधार पर नहीं।"},"refs":["const-358-359"]},
+    {"type":"know","text":{"en":"The President can suspend the right to approach courts for certain fundamental rights, but not Articles 20 and 21.","hi":"राष्ट्रपति कुछ मौलिक अधिकारों के लिए अदालत जाने के अधिकार को निलंबित कर सकते हैं, लेकिन अनुच्छेद 20 और 21 को नहीं।"},"refs":["const-358-359"]},
+    {"type":"know","text":{"en":"The Supreme Court later recognised that life and liberty cannot be suspended by an emergency.","hi":"बाद में सर्वोच्च न्यायालय ने माना कि आपातकाल में भी जीवन और स्वतंत्रता के अधिकार निलंबित नहीं किए जा सकते।"},"refs":["case-puttaswamy"]},
+    {"type":"know","text":{"en":"State Emergency (President's Rule, Article 356) does not suspend fundamental rights.","hi":"राज्य में आपातकाल (राष्ट्रपति शासन, अनुच्छेद 356) से मौलिक अधिकार निलंबित नहीं होते।"},"refs":["const-356"]},
+    {"type":"next","text":{"en":"This is a high-level summary. Get a constitutional lawyer's view for any real emergency.","hi":"यह केवल एक संक्षिप्त सारांश है। वास्तविक आपातस्थिति में संवैधानिक मामलों के वकील से सलाह लें।"}}
+  ],
+  "grayAreas": [{"en":"This is a high-level summary. Get a constitutional lawyer's view for any real emergency.","hi":"यह केवल एक संक्षिप्त सारांश है। वास्तविक आपातस्थिति में संवैधानिक मामलों के वकील से सलाह लें।"}],
+  "tags": ["emergency","aapatkaal","352","358","359","president rule"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

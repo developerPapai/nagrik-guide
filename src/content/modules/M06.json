@@ -1,0 +1,29 @@
+{
+  "id": "M06",
+  "group": "situation",
+  "situationId": "court",
+  "icon": "•",
+  "title": {"en": "Before the Magistrate: remand, legal aid, and bail", "hi": "मजिस्ट्रेट के सामने: रिमांड, कानूनी सहायता और ज़मानत"},
+  "summary": {"en": "The first appearance before a Magistrate is a chance to raise problems and ask for a lawyer and bail.", "hi": "मजिस्ट्रेट के सामने पहली पेशी पर आप समस्याएँ बता सकते/सकती हैं और वकील तथा ज़मानत माँग सकते/सकती हैं।"},
+  "steps": [
+    {"type":"say","text":{"en":"Speak politely. Tell the Magistrate about any beating, threats, injuries, or being prevented from calling. Ask for a legal aid lawyer and apply for bail.","hi":"विनम्रता से बात करें। मारपीट, धमकी, चोट या फ़ोन करने से रोके जाने के बारे में मजिस्ट्रेट को बताएं। कानूनी सहायता वाले वकील की माँग करें और ज़मानत के लिए आवेदन करें।"},"refs":["lsa-12g","const-39a"]},
+    {"type":"say","text":{"en":"If injured, ask for a medical examination.","hi":"चोट लगने पर चिकित्सकीय जाँच की माँग करें।"},"refs":["bnss-53"]},
+    {"type":"dont","text":{"en":"Do not make admissions or sign papers you have not read.","hi":"कोई बात अपराध-स्वीकार के रूप में न कहें और बिना पढ़े काग़ज़ों पर हस्ताक्षर न करें।"}},
+    {"type":"know","text":{"en":"The Magistrate decides whether to release you, grant bail, or order police or judicial custody. Police custody is capped at 15 days in total; BNSS permits those days to be spread across the early part of the investigation. Verify the rule.","hi":"मजिस्ट्रेट तय करते हैं कि आपको रिहा करना है, ज़मानत देनी है या पुलिस/न्यायिक हिरासत में भेजना है। पुलिस हिरासत कुल 15 दिनों तक सीमित है; BNSS इन दिनों को जाँच के शुरुआती हिस्से में अलग-अलग अवधि में देने की अनुमति देता है। इस नियम की पुष्टि करें।"},"refs":["bnss-187"]},
+    {"type":"know","text":{"en":"Anyone in custody can seek free legal aid, regardless of income. The Magistrate should tell you about this right.","hi":"आर्थिक स्थिति की परवाह किए बिना, हिरासत में हर व्यक्ति निःशुल्क कानूनी सहायता माँग सकता है। मजिस्ट्रेट को आपको इस अधिकार के बारे में बताना चाहिए।"},"refs":["lsa-12g","const-39a","case-khatri"]},
+    {"type":"know","text":{"en":"For a bailable offence, bail is a right. If you cannot arrange surety, the court can accept a personal bond.","hi":"ज़मानती अपराध में ज़मानत आपका अधिकार है। यदि आप ज़मानतदार की व्यवस्था नहीं कर सकते/सकती, तो अदालत निजी मुचलका स्वीकार कर सकती है।"},"refs":["bnss-478"]},
+    {"type":"know","text":{"en":"For a non-bailable offence, bail is at the court's discretion.","hi":"गैर-ज़मानती अपराध में ज़मानत देना अदालत के विवेक पर निर्भर करता है।"},"refs":["bnss-480","case-antil"]},
+    {"type":"know","text":{"en":"If the investigation is not completed within the legal period (60 or 90 days depending on the offence), you can apply for default bail.","hi":"यदि अपराध के अनुसार तय 60 या 90 दिनों की कानूनी अवधि में जाँच पूरी नहीं होती, तो आप डिफ़ॉल्ट ज़मानत के लिए आवेदन कर सकते/सकती हैं।"},"refs":["bnss-187"]},
+    {"type":"know","text":{"en":"Some first-time offenders may be released after serving one-third of the maximum sentence; other limits apply.","hi":"कुछ पहली बार अपराध के आरोपी, अधिकतम सज़ा की एक-तिहाई अवधि पूरी करने के बाद रिहा हो सकते हैं; अन्य सीमाएँ भी लागू होती हैं।"},"refs":["bnss-479"]},
+    {"type":"know","text":{"en":"Anticipatory bail may be possible if you fear arrest.","hi":"गिरफ़्तारी की आशंका होने पर अग्रिम ज़मानत मिल सकती है।"},"refs":["bnss-482"]},
+    {"type":"say","text":{"en":"NALSA legal aid helpline: 15100. District Legal Services Authority offices are at district courts.","hi":"NALSA कानूनी सहायता हेल्पलाइन: 15100। ज़िला विधिक सेवा प्राधिकरण के कार्यालय ज़िला अदालतों में होते हैं।"}},
+    {"type":"next","text":{"en":"Bail is much harder under some special laws, including UAPA and PMLA. Contact a lawyer immediately if one is mentioned.","hi":"UAPA और PMLA सहित कुछ विशेष कानूनों के तहत ज़मानत मिलना बहुत कठिन है। इनमें से किसी कानून का उल्लेख हो तो तुरंत वकील से संपर्क करें।"},"refs":["uapa-43d"]}
+  ],
+  "grayAreas": [{"en":"Bail is much harder under special laws (for example, UAPA and PMLA). If one is mentioned, get a lawyer immediately.","hi":"विशेष कानूनों (जैसे UAPA और PMLA) के तहत ज़मानत मिलना बहुत कठिन है। इनमें से किसी का उल्लेख हो तो तुरंत वकील से संपर्क करें।"}],
+  "related": ["M04","M05","M12"],
+  "tags": ["magistrate","remand","zamanat","bail","DLSA","legal aid","mukhya nyayik","pesh"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

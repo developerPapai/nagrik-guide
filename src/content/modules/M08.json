@@ -1,0 +1,22 @@
+{
+  "id": "M08",
+  "group": "protest",
+  "icon": "◉",
+  "title": {"en": "Internet shutdown", "hi": "इंटरनेट बंदी"},
+  "summary": {"en": "Authorities can suspend internet in emergencies, but not arbitrarily or indefinitely.", "hi": "आपातस्थिति में अधिकारी इंटरनेट सेवा रोक सकते हैं, लेकिन मनमाने ढंग से या अनिश्चितकाल के लिए नहीं।"},
+  "steps": [
+    {"type":"know","text":{"en":"Internet access for expression is protected. Shutdowns must be necessary, proportionate, temporary, written with reasons, and open to judicial review. Orders should be published.","hi":"अभिव्यक्ति के लिए इंटरनेट तक पहुँच संरक्षित है। इंटरनेट बंदी आवश्यक, आनुपातिक और अस्थायी होनी चाहिए; कारण लिखित होने चाहिए और न्यायिक समीक्षा संभव होनी चाहिए। आदेश प्रकाशित किए जाने चाहिए।"},"refs":["case-anuradha","const-19"]},
+    {"type":"know","text":{"en":"The legal power is in the Telecommunications Act 2023 and rules under it, replacing the Telegraph Act 2017 rules. Verify the current rules.","hi":"इंटरनेट सेवा रोकने की कानूनी शक्ति दूरसंचार अधिनियम, 2023 और उसके तहत बने नियमों में है; इन्होंने टेलीग्राफ अधिनियम के 2017 के नियमों का स्थान लिया। वर्तमान नियमों की पुष्टि करें।"},"refs":["telecom-20"]},
+    {"type":"know","text":{"en":"A shutdown does not suspend your fundamental rights or police duties under arrest law.","hi":"इंटरनेट बंदी से आपके मौलिक अधिकार या गिरफ़्तारी संबंधी कानून के तहत पुलिस के कर्तव्य निलंबित नहीं होते।"},"refs":["const-19","const-22"]},
+    {"type":"know","text":{"en":"If a shutdown order is not public, a lawyer or organisation can ask for it and challenge it in the High Court.","hi":"यदि इंटरनेट बंदी का आदेश सार्वजनिक नहीं है, तो वकील या संगठन उसकी प्रति माँगकर उच्च न्यायालय में उसे चुनौती दे सकता है।"},"refs":["const-32-226"]},
+    {"type":"do","text":{"en":"Before a shutdown, save this app and write important numbers (lawyer, family, and 15100) on paper. Agree on offline plans: meeting points, check-in times, and who calls the lawyer.","hi":"इंटरनेट बंद होने से पहले यह ऐप सहेजें और ज़रूरी नंबर (वकील, परिवार और 15100) काग़ज़ पर लिख लें। बिना इंटरनेट की योजना तय करें: मिलने की जगह, संपर्क का समय और वकील को कौन फ़ोन करेगा।"}},
+    {"type":"know","text":{"en":"Voice calls or SMS may still work. If you consider installing an offline messenger, research and install it before a shutdown and check its security independently.","hi":"वॉइस कॉल या SMS काम कर सकते हैं। ऑफ़लाइन संदेश ऐप लगाने का विचार हो, तो इंटरनेट बंद होने से पहले उसकी जानकारी लेकर इंस्टॉल करें और उसकी सुरक्षा की स्वतंत्र रूप से जाँच करें।"}}
+  ],
+  "grayAreas": [{"en":"Courts have not set a fixed time limit for a shutdown; each shutdown is judged on its facts.","hi":"अदालतों ने इंटरनेट बंदी के लिए कोई निश्चित समय-सीमा तय नहीं की है; हर बंदी का मूल्यांकन उसके तथ्यों के आधार पर होता है।"}],
+  "related": ["M07"],
+  "tags": ["internet band","shutdown","network","mobile data","communication ban"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

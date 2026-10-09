@@ -1,0 +1,12 @@
+[
+  {"id":"numbers","text":{"en":"Write two phone numbers (lawyer and family) and 15100 on paper or your forearm. Phones can be seized or run out of power.","hi":"वकील और परिवार के दो फ़ोन नंबर तथा 15100 काग़ज़ या अपनी बाँह पर लिख लें। फ़ोन ज़ब्त हो सकता है या उसकी बैटरी ख़त्म हो सकती है।"}},
+  {"id":"essentials","text":{"en":"Carry ID, any medication, a little cash, water, and a charged power bank.","hi":"पहचान-पत्र, ज़रूरी दवाएँ, थोड़ा नकद, पानी और चार्ज किया हुआ पावर बैंक साथ रखें।"}},
+  {"id":"checkin","text":{"en":"Tell a trusted person where you will be and when you will check in. Agree what to do if you do not call.","hi":"किसी भरोसेमंद व्यक्ति को बताएं कि आप कहाँ होंगे और कब संपर्क करेंगे। यदि आपका फ़ोन न आए तो क्या करना है, यह पहले तय कर लें।"}},
+  {"id":"lawyer-details","text":{"en":"Give your lawyer or organisation your full name, address, and ID details in advance.","hi":"अपना पूरा नाम, पता और पहचान-पत्र का विवरण पहले से अपने वकील या संगठन को दें।"}},
+  {"id":"phone","text":{"en":"Use a strong passcode. Consider turning off fingerprint or face unlock. Update and back up your phone, and carry only the information you need.","hi":"मज़बूत पासकोड रखें। फ़िंगरप्रिंट या चेहरा पहचान से अनलॉक बंद करने पर विचार करें। फ़ोन अपडेट और बैकअप करें तथा केवल ज़रूरी जानकारी साथ रखें।"}},
+  {"id":"offline-tools","text":{"en":"Install offline tools before you go.","hi":"जाने से पहले ऑफ़लाइन काम करने वाले ज़रूरी साधन इंस्टॉल करें।"}},
+  {"id":"clothing","text":{"en":"Wear comfortable clothes and shoes. Carry nothing that could be seen as a weapon.","hi":"आरामदायक कपड़े और जूते पहनें। ऐसी कोई चीज़ साथ न रखें जिसे हथियार समझा जा सके।"}},
+  {"id":"buddy","text":{"en":"Know exits and meeting points. Go with a buddy and agree what to do if separated.","hi":"बाहर निकलने के रास्ते और मिलने की जगहें जान लें। किसी साथी के साथ जाएँ और बिछड़ने पर क्या करना है, पहले तय करें।"}},
+  {"id":"peaceful","text":{"en":"Stay peaceful. Leave when told to disperse lawfully or when violence starts.","hi":"शांतिपूर्ण रहें। तितर-बितर होने का वैध आदेश मिलने या हिंसा शुरू होने पर वहाँ से चले जाएँ।"}},
+  {"id":"special","text":{"en":"Women and children: read S11 and S13; save 1091 and 1098.","hi":"महिलाएँ और बच्चे: S11 और S13 पढ़ें; 1091 और 1098 नंबर सहेजें।"}}
+]

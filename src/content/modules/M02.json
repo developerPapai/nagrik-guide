@@ -1,0 +1,26 @@
+{
+  "id": "M02",
+  "group": "situation",
+  "situationId": "stopped",
+  "icon": "?",
+  "title": {"en": "Stopped or questioned", "hi": "रोकना या पूछताछ करना"},
+  "summary": {"en": "Police can stop and ask questions, but being stopped is not the same as being arrested.", "hi": "पुलिस रोककर सवाल पूछ सकती है, लेकिन रोका जाना गिरफ़्तारी के समान नहीं है।"},
+  "steps": [
+    {"type":"do","text":{"en":"Stay calm. Give your name and address. Ask, “Am I free to go?” If asked to come to a station, ask whether there is a written notice and read it.","hi":"शांत रहें। अपना नाम और पता बताएं। पूछें, “क्या मैं जा सकता/सकती हूँ?” थाने आने को कहा जाए, तो पूछें कि क्या लिखित नोटिस है और उसे पढ़ें।"},"refs":["bnss-39"]},
+    {"type":"dont","text":{"en":"Do not run, argue, give false information, or sign papers you have not read.","hi":"भागें नहीं, बहस न करें, गलत जानकारी न दें और बिना पढ़े किसी काग़ज़ पर हस्ताक्षर न करें।"}},
+    {"type":"know","text":{"en":"You must give your name and address when asked. Refusing can itself lead to arrest.","hi":"पूछे जाने पर आपको अपना नाम और पता बताना होगा। मना करने पर भी गिरफ़्तारी हो सकती है।"},"refs":["bnss-39"]},
+    {"type":"know","text":{"en":"You need not answer questions that could incriminate you. A statement to police does not have to be signed.","hi":"ऐसे सवालों का जवाब देना आवश्यक नहीं है जिनसे आप अपने विरुद्ध अपराध स्वीकार करने को बाध्य हों। पुलिस को दिए गए बयान पर हस्ताक्षर करना आवश्यक नहीं है।"},"refs":["bnss-180","const-20-3","bnss-181"]},
+    {"type":"know","text":{"en":"For many offences, police should issue a notice to appear instead of arresting. If you comply, arrest should not follow unless police record reasons.","hi":"कई अपराधों में गिरफ़्तार करने के बजाय पुलिस को पेश होने का नोटिस देना चाहिए। नोटिस का पालन करने पर गिरफ़्तारी नहीं होनी चाहिए, जब तक पुलिस उसके कारण दर्ज न करे।"},"refs":["bnss-35","case-arnesh"]},
+    {"type":"know","text":{"en":"Women, children, elderly people, and people with disabilities cannot be required to attend a police station as witnesses; they can be questioned at their residence.","hi":"महिलाओं, बच्चों, बुज़ुर्गों और दिव्यांग व्यक्तियों को गवाह के रूप में थाने आने के लिए बाध्य नहीं किया जा सकता; उनसे उनके निवास पर पूछताछ की जा सकती है।"},"refs":["bnss-179"]},
+    {"type":"know","text":{"en":"For arrested persons, a woman must conduct a search of a woman. Courts apply the principle more widely; verify how it applies in your situation.","hi":"गिरफ़्तार व्यक्ति की तलाशी में, महिला की तलाशी महिला अधिकारी द्वारा ही की जानी चाहिए। अदालतें इस सिद्धांत को व्यापक रूप से लागू करती हैं; अपनी स्थिति में इसका प्रयोग वकील से जाँचें।"},"refs":["bnss-49"]},
+    {"type":"say","text":{"en":"Ask whether you are free to leave, and if not, ask for the reason and the legal basis.","hi":"पूछें कि क्या आप जा सकते/सकती हैं। यदि नहीं, तो कारण और कानूनी आधार पूछें।"}},
+    {"type":"know","text":{"en":"Whether police can compel you to unlock a phone is unsettled. Police may seize an item they suspect is linked to an offence.","hi":"पुलिस आपको फ़ोन अनलॉक करने के लिए बाध्य कर सकती है या नहीं, यह कानूनी प्रश्न अभी स्पष्ट नहीं है। पुलिस किसी अपराध से जुड़ी होने के संदेह वाली वस्तु ज़ब्त कर सकती है।"},"refs":["bnss-106"]}
+  ],
+  "grayAreas": [{"en":"Whether you can be compelled to unlock your phone is unsettled (see M09). Police may also seize an item they suspect is linked to an offence.","hi":"आपको फ़ोन अनलॉक करने के लिए बाध्य किया जा सकता है या नहीं, यह प्रश्न अभी स्पष्ट नहीं है (M09 देखें)। पुलिस किसी अपराध से जुड़ी होने के संदेह वाली वस्तु ज़ब्त भी कर सकती है।"}],
+  "related": ["M09"],
+  "tags": ["roka","poochtaach","stopped","questioned","thana","notice"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "M10",
+  "group": "special",
+  "icon": "◉",
+  "title": {"en": "Women, children, and other special groups", "hi": "महिलाएँ, बच्चे और अन्य विशेष समूह"},
+  "summary": {"en": "Some groups have additional safeguards. Ask for a lawyer if these protections are not followed.", "hi": "कुछ समूहों के लिए अतिरिक्त सुरक्षा उपाय हैं। इनका पालन न होने पर वकील की सहायता माँगें।"},
+  "steps": [
+    {"type":"know","text":{"en":"A woman must be searched by a woman officer. Except in exceptional circumstances with a Magistrate's prior written permission, a woman cannot be arrested after sunset and before sunrise. Women may be questioned at home as witnesses.","hi":"महिला की तलाशी महिला अधिकारी द्वारा ही ली जानी चाहिए। असाधारण परिस्थितियों में मजिस्ट्रेट की पूर्व लिखित अनुमति के बिना किसी महिला को सूर्यास्त के बाद और सूर्योदय से पहले गिरफ़्तार नहीं किया जा सकता। गवाह के रूप में महिलाओं से घर पर पूछताछ की जा सकती है।"},"refs":["bnss-43","bnss-49","bnss-179","case-sheelabarse"]},
+    {"type":"know","text":{"en":"Children under 18 should not be put in a police lock-up or jail. The Juvenile Justice Board and a Special Juvenile Police Unit handle these cases; a parent or guardian must be informed.","hi":"18 वर्ष से कम उम्र के बच्चों को पुलिस लॉक-अप या जेल में नहीं रखा जाना चाहिए। ऐसे मामलों को किशोर न्याय बोर्ड और विशेष किशोर पुलिस इकाई देखती है; माता-पिता या अभिभावक को सूचित किया जाना चाहिए।"},"refs":["jja-10"]},
+    {"type":"say","text":{"en":"If you are under 18, say so and ask for your parent or guardian to be informed and for the Juvenile Justice Board.","hi":"यदि आपकी उम्र 18 वर्ष से कम है, तो यह बताएं और अपने माता-पिता या अभिभावक को सूचित करने तथा किशोर न्याय बोर्ड से संपर्क करने को कहें।"}},
+    {"type":"know","text":{"en":"For an offence punishable with less than 3 years, arrest of an elderly or infirm person needs prior permission of an officer not below DSP rank.","hi":"3 वर्ष से कम कारावास से दंडनीय अपराध में किसी बुज़ुर्ग या अस्वस्थ व्यक्ति की गिरफ़्तारी के लिए DSP से नीचे के पद के अधिकारी की पूर्व अनुमति आवश्यक है।"},"refs":["bnss-35"]},
+    {"type":"do","text":{"en":"If you have a disability or need medication or assistance, tell the officer and the Magistrate about your needs.","hi":"यदि आपको दिव्यांगता है या दवा अथवा सहायता की ज़रूरत है, तो अधिकारी और मजिस्ट्रेट को अपनी आवश्यकताओं के बारे में बताएं।"},"refs":["rpwd-2016"]},
+    {"type":"know","text":{"en":"Persons with disabilities have protections related to reasonable accommodation and dignity.","hi":"दिव्यांग व्यक्तियों को उचित सुविधा और गरिमा से जुड़े सुरक्षा अधिकार प्राप्त हैं।"},"refs":["rpwd-2016"]},
+    {"type":"know","text":{"en":"Transgender persons have protections related to dignity and non-discrimination.","hi":"ट्रांसजेंडर व्यक्तियों को गरिमा और भेदभाव से सुरक्षा के अधिकार प्राप्त हैं।"},"refs":["case-nalsa","transgender-persons-act-2019"]},
+    {"type":"know","text":{"en":"Practices differ by state. Ask for a supervising officer and a lawyer.","hi":"प्रक्रियाएँ राज्य के अनुसार अलग हो सकती हैं। वरिष्ठ अधिकारी और वकील की सहायता माँगें।"}}
+  ],
+  "grayAreas": [{"en":"Helpline numbers and procedures vary by state. Verify local support numbers before relying on them.","hi":"हेल्पलाइन नंबर और प्रक्रियाएँ राज्य के अनुसार अलग हो सकती हैं। उन पर निर्भर करने से पहले स्थानीय सहायता नंबरों की पुष्टि करें।"}],
+  "related": ["M04","M05"],
+  "tags": ["mahila","women","bachche","child","juvenile","bujurg","divyang"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "M05",
+  "group": "situation",
+  "situationId": "custody",
+  "icon": "•",
+  "title": {"en": "At the police station / in custody", "hi": "थाने में / हिरासत में"},
+  "summary": {"en": "In custody, the key concerns are time, dignity, and access to a lawyer, family, and doctor.", "hi": "हिरासत में समय-सीमा, गरिमा और वकील, परिवार तथा डॉक्टर तक पहुँच सबसे महत्वपूर्ण हैं।"},
+  "steps": [
+    {"type":"say","text":{"en":"Ask for a legal aid lawyer. Ask for water, a toilet, or medical help when needed.","hi":"कानूनी सहायता वाले वकील की माँग करें। ज़रूरत पड़ने पर पानी, शौचालय या चिकित्सा सहायता माँगें।"},"refs":["lsa-12g","const-39a"]},
+    {"type":"do","text":{"en":"Note officers' names, times, and what happens. Ask for a seizure memo for anything taken, including your phone.","hi":"अधिकारियों के नाम, समय और हुई घटनाएँ लिखें। ली गई हर वस्तु, फ़ोन सहित, के लिए ज़ब्ती मेमो माँगें।"}},
+    {"type":"do","text":{"en":"Show injuries to the doctor and Magistrate.","hi":"अपनी चोटें डॉक्टर और मजिस्ट्रेट को दिखाएँ।"},"refs":["bnss-53","const-22"]},
+    {"type":"dont","text":{"en":"Do not fight, threaten, sign unread papers, or discuss the case.","hi":"मारपीट या धमकी न दें, बिना पढ़े काग़ज़ों पर हस्ताक्षर न करें और मामले पर चर्चा न करें।"},"refs":["bnss-181"]},
+    {"type":"know","text":{"en":"You must be produced before the nearest Magistrate within 24 hours of arrest, excluding travel time, including on holidays.","hi":"छुट्टियों सहित, गिरफ़्तारी के 24 घंटे के भीतर—यात्रा में लगे समय को छोड़कर—आपको निकटतम मजिस्ट्रेट के सामने पेश किया जाना चाहिए।"},"refs":["const-22","bnss-58"]},
+    {"type":"know","text":{"en":"Torture and cruel treatment violate the right to life and dignity.","hi":"यातना और क्रूर व्यवहार जीवन तथा गरिमा के अधिकार का उल्लंघन हैं।"},"refs":["const-21","case-dkbasu"]},
+    {"type":"know","text":{"en":"A statement to police need not be signed.","hi":"पुलिस को दिए गए बयान पर हस्ताक्षर करना आवश्यक नहीं है।"},"refs":["bnss-181"]},
+    {"type":"know","text":{"en":"A Zero FIR can be registered at any police station.","hi":"ज़ीरो FIR किसी भी पुलिस थाने में दर्ज कराई जा सकती है।"},"refs":["bnss-173"]},
+    {"type":"know","text":{"en":"Children should not be put in a police lock-up or jail. Women have additional safeguards.","hi":"बच्चों को पुलिस लॉक-अप या जेल में नहीं रखा जाना चाहिए। महिलाओं के लिए अतिरिक्त सुरक्षा उपाय हैं।"},"refs":["jja-10","case-sheelabarse"]},
+    {"type":"know","text":{"en":"If held beyond 24 hours without a Magistrate's order, your family or lawyer can seek an urgent habeas corpus petition in the High Court or Supreme Court.","hi":"मजिस्ट्रेट के आदेश के बिना 24 घंटे से अधिक रोके जाने पर, आपका परिवार या वकील उच्च न्यायालय या सर्वोच्च न्यायालय में तत्काल बंदी प्रत्यक्षीकरण याचिका दायर करने का अनुरोध कर सकता है।"},"refs":["const-32-226"]}
+  ],
+  "grayAreas": [{"en":"Rights on paper are not always followed in practice. Your notes, your family being informed, and a lawyer can matter.","hi":"काग़ज़ पर दिए गए अधिकारों का व्यवहार में हमेशा पालन नहीं होता। आपके नोट, परिवार को सूचना और वकील की सहायता महत्वपूर्ण हो सकती है।"}],
+  "related": ["M04","M06","M11"],
+  "tags": ["thana","lockup","hirasat","custody","torture","habeas corpus"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

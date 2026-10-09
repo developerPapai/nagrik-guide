@@ -1,0 +1,21 @@
+{
+  "id": "M12",
+  "group": "special",
+  "icon": "§",
+  "title": {"en": "Preventive detention and special laws", "hi": "निवारक हिरासत और विशेष कानून"},
+  "summary": {"en": "Some laws work differently from ordinary arrest rules. Get a lawyer as soon as possible.", "hi": "कुछ कानून सामान्य गिरफ़्तारी के नियमों से अलग हैं। जल्द से जल्द वकील की सहायता लें।"},
+  "steps": [
+    {"type":"know","text":{"en":"Preventive detention laws, such as the National Security Act and state laws, have different safeguards. The usual 24-hour, Magistrate, and lawyer-of-choice protections do not apply in the same way. Detention goes to an Advisory Board; grounds must still be communicated and you can make a representation.","hi":"राष्ट्रीय सुरक्षा अधिनियम और राज्य कानूनों जैसे निवारक हिरासत कानूनों में अलग सुरक्षा उपाय हैं। सामान्य 24 घंटे, मजिस्ट्रेट के सामने पेशी और अपनी पसंद के वकील से जुड़े अधिकार उसी तरह लागू नहीं होते। मामला सलाहकार बोर्ड के पास जाता है; हिरासत के आधार फिर भी बताए जाने चाहिए और आप अभ्यावेदन दे सकते/सकती हैं।"},"refs":["const-22-3to7","nsa"]},
+    {"type":"know","text":{"en":"Special criminal laws, including UAPA and PMLA, have stricter bail tests.","hi":"UAPA और PMLA सहित विशेष आपराधिक कानूनों में ज़मानत के लिए अधिक कठोर कसौटियाँ हैं।"},"refs":["uapa-43d"]},
+    {"type":"know","text":{"en":"A detention order can be challenged by habeas corpus in the High Court or Supreme Court.","hi":"हिरासत के आदेश को उच्च न्यायालय या सर्वोच्च न्यायालय में बंदी प्रत्यक्षीकरण याचिका के ज़रिए चुनौती दी जा सकती है।"},"refs":["const-32-226"]},
+    {"type":"say","text":{"en":"Ask for the grounds in writing and a copy of the order.","hi":"हिरासत के आधार लिखित रूप में और आदेश की प्रति माँगें।"}},
+    {"type":"next","text":{"en":"Call legal aid at 15100 or your lawyer immediately. This is when a lawyer matters most.","hi":"तुरंत 15100 पर कानूनी सहायता या अपने वकील को फ़ोन करें। ऐसी स्थिति में वकील की सहायता बेहद महत्वपूर्ण है।"}}
+  ],
+  "grayAreas": [{"en":"Rules and time limits vary by law and change. Do not rely on this summary beyond getting a lawyer now.","hi":"नियम और समय-सीमाएँ कानून के अनुसार अलग होती हैं और बदल सकती हैं। तुरंत वकील से संपर्क करने के अलावा इस सारांश पर निर्भर न रहें।"}],
+  "related": ["M03","M06"],
+  "tags": ["NSA","UAPA","PSA","preventive detention","habeas corpus"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

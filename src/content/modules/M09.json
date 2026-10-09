@@ -1,0 +1,21 @@
+{
+  "id": "M09",
+  "group": "special",
+  "icon": "▣",
+  "title": {"en": "Your phone: seizure, search, and passcodes", "hi": "आपका फ़ोन: ज़ब्ती, तलाशी और पासकोड"},
+  "summary": {"en": "Phones hold private information and contacts' safety.", "hi": "फ़ोन में निजी जानकारी और संपर्कों की सुरक्षा से जुड़ा डेटा होता है।"},
+  "steps": [
+    {"type":"know","text":{"en":"Police can seize property linked to an offence and must report the seizure to a Magistrate. Ask for a written seizure memo listing the device.","hi":"पुलिस किसी अपराध से जुड़ी संपत्ति ज़ब्त कर सकती है और उसे ज़ब्ती की सूचना मजिस्ट्रेट को देनी चाहिए। डिवाइस का विवरण देने वाला लिखित ज़ब्ती मेमो माँगें।"},"refs":["bnss-106","bnss-94"]},
+    {"type":"know","text":{"en":"Privacy is a fundamental right and the Constitution protects against compelled testimony. Whether police or courts can force you to give a passcode or use fingerprint or face unlock is unsettled; different High Courts have taken different views.","hi":"निजता मौलिक अधिकार है और संविधान किसी व्यक्ति को अपने विरुद्ध गवाही देने के लिए बाध्य किए जाने से सुरक्षा देता है। पुलिस या अदालत आपको पासकोड बताने, फ़िंगरप्रिंट या चेहरा पहचान से फ़ोन खोलने के लिए बाध्य कर सकती है या नहीं, यह प्रश्न अभी स्पष्ट नहीं है; अलग-अलग उच्च न्यायालयों के मत अलग हैं।"},"refs":["case-puttaswamy","const-20-3","case-selvi"]},
+    {"type":"dont","text":{"en":"Never delete or destroy data after you know an investigation exists or police have asked for it. Destroying evidence is an offence.","hi":"जाँच शुरू होने की जानकारी मिलने या पुलिस के माँगने के बाद डेटा कभी मिटाएँ या नष्ट न करें। सबूत नष्ट करना अपराध है।"},"refs":["bns-238"]},
+    {"type":"do","text":{"en":"Before a protest, use a strong alphanumeric passcode. Consider disabling fingerprint or face unlock. Learn your phone's lockdown or shutdown shortcut, update it, back it up, and carry only what you need.","hi":"प्रदर्शन से पहले मज़बूत अक्षर-अंक वाला पासकोड रखें। फ़िंगरप्रिंट या चेहरा पहचान से अनलॉक बंद करने पर विचार करें। फ़ोन का लॉकडाउन या बंद करने का शॉर्टकट जानें, फ़ोन अपडेट और बैकअप करें तथा केवल ज़रूरी जानकारी साथ रखें।"}},
+    {"type":"say","text":{"en":"“I do not consent to the search of my phone or to giving my passcode. If you are seizing it, please give me a written seizure memo.” Say it calmly; do not physically resist.","hi":"“मैं अपने फ़ोन की तलाशी या पासकोड देने की सहमति नहीं देता/देती। यदि आप इसे ज़ब्त कर रहे हैं, तो कृपया मुझे लिखित ज़ब्ती मेमो दें।” यह बात शांतिपूर्वक कहें; शारीरिक विरोध न करें।"},"refs":["bnss-106"]},
+    {"type":"next","text":{"en":"Tell your lawyer immediately about any seizure.","hi":"किसी भी ज़ब्ती के बारे में तुरंत अपने वकील को बताएं।"}}
+  ],
+  "grayAreas": [{"en":"Whether police can compel you to unlock a phone is unsettled. Do not physically resist; ask for a written seizure memo and tell your lawyer.","hi":"पुलिस आपको फ़ोन अनलॉक करने के लिए बाध्य कर सकती है या नहीं, यह प्रश्न अभी स्पष्ट नहीं है। शारीरिक विरोध न करें; लिखित ज़ब्ती मेमो माँगें और अपने वकील को बताएं।"}],
+  "tags": ["phone","mobile","passcode","password","seizure","jabti","privacy"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

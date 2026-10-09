@@ -1,0 +1,21 @@
+{
+  "id": "M11",
+  "group": "special",
+  "icon": "✚",
+  "title": {"en": "Custodial violence and how to complain", "hi": "हिरासत में हिंसा और शिकायत कैसे करें"},
+  "summary": {"en": "Torture and cruel treatment in custody are unlawful and violate the right to life.", "hi": "हिरासत में यातना और क्रूर व्यवहार गैरकानूनी हैं और जीवन के अधिकार का उल्लंघन करते हैं।"},
+  "steps": [
+    {"type":"know","text":{"en":"Torture and cruel treatment in custody violate the right to life. Courts can award compensation.","hi":"हिरासत में यातना और क्रूर व्यवहार जीवन के अधिकार का उल्लंघन करते हैं। अदालतें मुआवज़ा देने का आदेश दे सकती हैं।"},"refs":["const-21","case-dkbasu"]},
+    {"type":"do","text":{"en":"Tell the doctor and Magistrate immediately. Ask for a medico-legal examination and a copy of the report.","hi":"डॉक्टर और मजिस्ट्रेट को तुरंत बताएं। चिकित्सकीय-कानूनी जाँच और रिपोर्ट की प्रति माँगें।"},"refs":["bnss-53"]},
+    {"type":"do","text":{"en":"If safe, photograph injuries with the date. Keep torn or bloodied clothing. Write down names and times.","hi":"यदि सुरक्षित हो, तो तारीख़ सहित चोटों की तस्वीर लें। फटे या खून लगे कपड़े सुरक्षित रखें। नाम और समय लिख लें।"}},
+    {"type":"say","text":{"en":"Ask your lawyer about a complaint to the Superintendent of Police, State Human Rights Commission or NHRC, a complaint before the Magistrate, or a High Court petition.","hi":"अपने वकील से पुलिस अधीक्षक, राज्य मानवाधिकार आयोग या NHRC को शिकायत देने, मजिस्ट्रेट के सामने शिकायत करने या उच्च न्यायालय में याचिका दायर करने के बारे में पूछें।"},"refs":["bnss-175-3","const-32-226"]},
+    {"type":"next","text":{"en":"A contemporaneous record can be valuable evidence.","hi":"घटना के समय या उसके तुरंत बाद बनाया गया रिकॉर्ड महत्वपूर्ण साक्ष्य हो सकता है।"}}
+  ],
+  "grayAreas": [{"en":"Pursuing complaints can be slow. A contemporaneous record may be valuable.","hi":"शिकायत पर कार्रवाई में समय लग सकता है। घटना के समय या उसके तुरंत बाद बनाया गया रिकॉर्ड उपयोगी हो सकता है।"}],
+  "related": ["M05","M06"],
+  "tags": ["maar-peet","torture","custodial","NHRC","medical","MLC"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

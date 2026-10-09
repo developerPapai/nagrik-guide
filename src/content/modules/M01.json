@@ -1,0 +1,24 @@
+{
+  "id": "M01",
+  "group": "reference",
+  "icon": "★",
+  "title": {"en": "Ten Golden Rules", "hi": "दस सुनहरे नियम"},
+  "summary": {"en": "Stay calm, comply physically, and assert your rights calmly in words.", "hi": "शांत रहें, शारीरिक रूप से निर्देशों का पालन करें और अपने अधिकारों की बात शांतिपूर्वक कहें।"},
+  "steps": [
+    {"type":"do","text":{"en":"Stay calm and peaceful. Do not run, push, or use force. You can challenge an unlawful detention later in court; resisting can lead to another charge.","hi":"शांत और अहिंसक रहें। भागें नहीं, धक्का न दें और बल का प्रयोग न करें। गैरकानूनी हिरासत को बाद में अदालत में चुनौती दी जा सकती है; विरोध करने पर एक और आरोप लग सकता है।"},"refs":["bns-132","bnss-46"]},
+    {"type":"do","text":{"en":"Give your name and address if asked. You may remain silent about the case. Never lie.","hi":"पूछे जाने पर अपना नाम और पता बताएं। मामले के बारे में आप चुप रह सकते हैं। कभी झूठ न बोलें।"},"refs":["bnss-39","const-20-3","bnss-180"]},
+    {"type":"say","text":{"en":"Ask: “Am I free to go?” If not, ask whether you are being arrested or detained.","hi":"पूछें: “क्या मैं जा सकता/सकती हूँ?” यदि नहीं, तो पूछें कि क्या आपको गिरफ़्तार किया जा रहा है या हिरासत में लिया जा रहा है।"}},
+    {"type":"say","text":{"en":"Ask for the reason for arrest and request it in writing.","hi":"गिरफ़्तारी का कारण पूछें और उसे लिखित रूप में देने का अनुरोध करें।"},"refs":["const-22","bnss-47"]},
+    {"type":"say","text":{"en":"Ask for your lawyer or a free legal aid lawyer.","hi":"अपने वकील या निःशुल्क कानूनी सहायता के वकील की माँग करें।"},"refs":["const-22","lsa-12g"]},
+    {"type":"say","text":{"en":"Ask the police to inform your family or friend.","hi":"पुलिस से अपने परिवार या मित्र को सूचित करने के लिए कहें।"},"refs":["bnss-36","bnss-48"]},
+    {"type":"dont","text":{"en":"Do not sign anything you have not read. Never sign a blank paper. A police statement need not be signed.","hi":"बिना पढ़े किसी काग़ज़ पर हस्ताक्षर न करें। खाली काग़ज़ पर कभी हस्ताक्षर न करें। पुलिस को दिए गए बयान पर हस्ताक्षर करना आवश्यक नहीं है।"},"refs":["bnss-181"]},
+    {"type":"know","text":{"en":"If arrested, you must be produced before a Magistrate within 24 hours, excluding travel time. Tell the Magistrate about ill-treatment.","hi":"गिरफ़्तारी होने पर, यात्रा में लगे समय को छोड़कर, आपको 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश किया जाना चाहिए। दुर्व्यवहार के बारे में मजिस्ट्रेट को बताएं।"},"refs":["const-22","bnss-58"]},
+    {"type":"say","text":{"en":"If injured, ask for a medical examination and tell the Magistrate.","hi":"चोट लगने पर चिकित्सकीय जाँच की माँग करें और मजिस्ट्रेट को बताएं।"},"refs":["bnss-53"]},
+    {"type":"do","text":{"en":"As soon as you can, write down names, badge numbers, times, and places.","hi":"जितनी जल्दी हो सके, नाम, बैज नंबर, समय और स्थान लिख लें।"}}
+  ],
+  "tags": ["rules","basics","mool niyam","adhikar"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}

@@ -1,0 +1,27 @@
+{
+  "contentVersion": "0.1.0",
+  "sources": [
+    {"en":"India Code — official text of statutes","hi":"India Code — क़ानूनों का आधिकारिक पाठ"},
+    {"en":"Official Ministry of Home Affairs comparison tables","hi":"गृह मंत्रालय की आधिकारिक तुलना तालिकाएँ"},
+    {"en":"Constitution of India, including the 44th Amendment","hi":"भारत का संविधान, 44वें संशोधन सहित"},
+    {"en":"Supreme Court of India and official law reports","hi":"भारत का सर्वोच्च न्यायालय और आधिकारिक विधि रिपोर्ट"},
+    {"en":"NALSA and State Legal Services Authorities","hi":"NALSA और राज्य विधिक सेवा प्राधिकरण"},
+    {"en":"Official Gazette notifications and official state helpline sources","hi":"राजपत्र अधिसूचनाएँ और राज्य हेल्पलाइन के आधिकारिक स्रोत"}
+  ],
+  "limits": {
+    "en":"All legal content is an AI draft and requires review against current official sources. Phone numbers and laws can change. This app works offline but is not a substitute for a lawyer.",
+    "hi":"सभी कानूनी सामग्री AI का मसौदा है और वर्तमान आधिकारिक स्रोतों से जाँच आवश्यक है। फ़ोन नंबर और कानून बदल सकते हैं। यह ऐप ऑफ़लाइन काम करता है, लेकिन वकील का विकल्प नहीं है।"
+  },
+  "privacyNote": {
+    "en": "A short PIN can be brute-forced if someone copies your app storage. Android device encryption and a strong phone passcode matter more.",
+    "hi": "यदि कोई ऐप का स्टोरेज कॉपी करता है, तो छोटे पिन का अनुमान लगाया जा सकता है। Android डिवाइस एन्क्रिप्शन और मज़बूत फ़ोन पासकोड अधिक महत्वपूर्ण हैं।"
+  },
+  "codeLicense": {
+    "en": "MIT or Apache-2.0 (to be selected before release)",
+    "hi": "MIT या Apache-2.0 (रिलीज़ से पहले एक लाइसेंस चुना जाएगा)"
+  },
+  "contentLicense": {
+    "en": "CC BY 4.0 (reviewer credit to be added with permission)",
+    "hi": "CC BY 4.0 (अनुमति लेकर समीक्षक का श्रेय जोड़ा जाएगा)"
+  }
+}

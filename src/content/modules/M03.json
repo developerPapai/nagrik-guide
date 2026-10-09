@@ -1,0 +1,26 @@
+{
+  "id": "M03",
+  "group": "situation",
+  "situationId": "detained",
+  "icon": "!",
+  "title": {"en": "Detained at a protest", "hi": "प्रदर्शन के दौरान हिरासत में लिया जाना"},
+  "summary": {"en": "At protests, police may detain many people, move them, and release them later. If you are not free to leave, ask if you are under arrest.", "hi": "प्रदर्शन के दौरान पुलिस कई लोगों को हिरासत में लेकर दूसरी जगह ले जा सकती है और बाद में छोड़ सकती है। यदि आपको जाने की अनुमति नहीं है, तो पूछें कि क्या आपको गिरफ़्तार किया जा रहा है।"},
+  "steps": [
+    {"type":"do","text":{"en":"Comply physically. Ask the officer's name and number. Note the time, place, vehicle number, and names of people detained with you.","hi":"शारीरिक रूप से निर्देशों का पालन करें। अधिकारी का नाम और नंबर पूछें। समय, स्थान, वाहन नंबर और आपके साथ हिरासत में लिए गए लोगों के नाम लिखें।"}},
+    {"type":"say","text":{"en":"Ask: “Under which provision am I being detained?”","hi":"पूछें: “मुझे किस कानूनी प्रावधान के तहत हिरासत में लिया जा रहा है?”"}},
+    {"type":"do","text":{"en":"If you can, ask someone to inform your family. Stay with others where it is safe.","hi":"यदि संभव हो, तो किसी से अपने परिवार को सूचित करने के लिए कहें। जहाँ सुरक्षित हो, दूसरों के साथ रहें।"}},
+    {"type":"dont","text":{"en":"Do not resist or run. Do not answer questions about protest organisers without a lawyer.","hi":"विरोध न करें और भागें नहीं। वकील के बिना प्रदर्शन के आयोजकों के बारे में सवालों का जवाब न दें।"}},
+    {"type":"know","text":{"en":"Preventive arrest to stop a cognizable offence generally cannot last more than 24 hours unless further detention is authorised under another law.","hi":"संज्ञेय अपराध रोकने के लिए निवारक गिरफ़्तारी सामान्यतः 24 घंटे से अधिक नहीं चल सकती, जब तक किसी अन्य कानून के तहत आगे की हिरासत अधिकृत न हो।"},"refs":["bnss-170"]},
+    {"type":"know","text":{"en":"If arrested, grounds must be told to you and you must be produced before a Magistrate within 24 hours.","hi":"गिरफ़्तारी होने पर आपको उसके आधार बताए जाने चाहिए और 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश किया जाना चाहिए।"},"refs":["const-22","bnss-47","bnss-58"]},
+    {"type":"know","text":{"en":"Before dispersing an assembly, police should give warnings, and force must be the minimum necessary.","hi":"सभा को तितर-बितर करने से पहले पुलिस को चेतावनी देनी चाहिए और केवल आवश्यक न्यूनतम बल का प्रयोग करना चाहिए।"},"refs":["bnss-148-150","case-anitathakur"]},
+    {"type":"know","text":{"en":"Women and children have extra protections. See M10.","hi":"महिलाओं और बच्चों के लिए अतिरिक्त सुरक्षा उपाय हैं। M10 देखें।"},"refs":["bnss-43","jja-10"]},
+    {"type":"next","text":{"en":"If you are not free to leave, treat it as an arrest and ask for the grounds.","hi":"यदि आपको जाने की अनुमति नहीं है, तो इसे गिरफ़्तारी मानें और उसके आधार पूछें।"},"refs":["const-22","bnss-47"]}
+  ],
+  "grayAreas": [{"en":"Police may call it “detention” without paperwork. If you are not free to leave, treat it as an arrest and ask for the grounds. Your own notes may matter.","hi":"पुलिस बिना काग़ज़ी कार्रवाई के इसे “हिरासत” कह सकती है। यदि आपको जाने की अनुमति नहीं है, तो इसे गिरफ़्तारी मानें और उसके आधार पूछें। आपके अपने लिखे नोट उपयोगी हो सकते हैं।"}],
+  "related": ["M04","M10"],
+  "tags": ["hirasat","bus","mass detention","preventive","151","170","giraftari"],
+  "status": "ai_draft",
+  "translation": "ai_draft",
+  "draftedOn": "2026-10-09",
+  "lastVerified": null
+}
