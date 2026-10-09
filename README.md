@@ -6,7 +6,7 @@ This is a draft project. No legal module has been lawyer-reviewed. Check the vis
 
 ## Try the app
 
-Requirements: Node.js 20 or newer and npm.
+Requirements: Node.js 22.12 or newer and npm. Capacitor CLI requires Node.js 22 or newer.
 
 ```text
 npm ci
