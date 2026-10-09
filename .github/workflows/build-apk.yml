@@ -1,0 +1,105 @@
+# Save this file in your project as:  .github/workflows/build-apk.yml
+# It builds the Android APK on GitHub's servers. You do NOT need Android Studio.
+#
+# How to run: push your project to GitHub -> open the "Actions" tab ->
+# "Build Android APK" -> "Run workflow". When it finishes (about 5-10 minutes),
+# open the run and download the APK from "Artifacts".
+
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest   # comes with the Android SDK preinstalled
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Capacitor's current Android template needs a recent JDK.
+      # If Gradle complains about the Java version, change 21 to 17 (or the version it asks for).
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate content and build the web app
+        run: |
+          npm run validate
+          npm run build
+
+      - name: Create/sync the Android project
+        run: |
+          if [ ! -d android ]; then npx cap add android; fi
+          npx cap sync android
+
+      - name: Remove INTERNET permission and disable backups
+        run: |
+          MANIFEST=android/app/src/main/AndroidManifest.xml
+          sed -i '/android.permission.INTERNET/d' "$MANIFEST"
+          sed -i 's/android:allowBackup="true"/android:allowBackup="false"/' "$MANIFEST"
+          grep -q 'usesCleartextTraffic' "$MANIFEST" || \
+            sed -i 's/<application/<application android:usesCleartextTraffic="false"/' "$MANIFEST"
+          echo "----- AndroidManifest.xml -----"
+          cat "$MANIFEST"
+
+      - name: Build debug APK (for testing)
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug
+
+      - name: Verify the APK has no INTERNET permission
+        run: |
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          AAPT2=$(ls "$ANDROID_HOME"/build-tools/*/aapt2 | sort -V | tail -1)
+          "$AAPT2" dump permissions "$APK" | tee perms.txt
+          if grep -q "android.permission.INTERNET" perms.txt; then
+            echo "ERROR: INTERNET permission is still present"; exit 1
+          fi
+          sha256sum "$APK"
+
+      # OPTIONAL: signed release APK with a permanent key.
+      # Runs only if you add these repository secrets (Settings > Secrets and variables > Actions):
+      #   KEYSTORE_BASE64, KEYSTORE_PASSWORD, KEY_ALIAS
+      # A permanent key lets people update the app later WITHOUT uninstalling it
+      # (uninstalling would erase their local notes).
+      - name: Build and sign release APK (only if keystore secrets exist)
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "No keystore secret set - skipping signed release build."; exit 0
+          fi
+          echo "$KEYSTORE_BASE64" | base64 -d > release.jks
+          (cd android && ./gradlew assembleRelease)
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          UNSIGNED=android/app/build/outputs/apk/release/app-release-unsigned.apk
+          "$BT"/zipalign -p -f 4 "$UNSIGNED" aligned.apk
+          "$BT"/apksigner sign --ks release.jks --ks-key-alias "$KEY_ALIAS" \
+            --ks-pass env:KEYSTORE_PASSWORD --out nagrik-guide-release.apk aligned.apk
+          "$BT"/apksigner verify nagrik-guide-release.apk
+          sha256sum nagrik-guide-release.apk
+          rm -f release.jks
+
+      - name: Upload APK(s)
+        uses: actions/upload-artifact@v4
+        with:
+          name: nagrik-guide-apk
+          path: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+            nagrik-guide-release.apk
+          if-no-files-found: warn
