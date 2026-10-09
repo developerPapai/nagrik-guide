@@ -27,3 +27,10 @@ android/app/release
 *.njsproj
 *.sln
 *.sw?
+
+# Local project documentation and review files
+/docs/
+/README.md
+/REVIEW.md
+/CONTRIBUTING.md
+/CHANGELOG.md
